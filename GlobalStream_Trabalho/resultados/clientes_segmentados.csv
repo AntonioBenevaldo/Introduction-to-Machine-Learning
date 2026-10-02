@@ -1,0 +1,1001 @@
+ID_Cliente,Meses_Contrato,Valor_Mensal,Frequencia_Acesso_Semanal,Tickets_Suporte,Plano,Genero_Favorito,Dispositivo_Principal,cluster
+GS-0001,39,39.57,5,6,Standard,Desporto,Smart TV,1
+GS-0002,29,54.2,7,5,Premium,Documentarios,Web,0
+GS-0003,15,37.54,4,8,Basico,Documentarios,Mobile,1
+GS-0004,43,50.35,2,2,Basico,Filmes,Mobile,0
+GS-0005,8,52.71,5,2,Premium,Series,Smart TV,0
+GS-0006,21,47.77,1,2,Standard,Series,Smart TV,0
+GS-0007,39,44.05,3,9,Premium,Documentarios,Web,1
+GS-0008,19,42.26,6,2,Premium,Series,Smart TV,0
+GS-0009,23,40.37,2,8,Standard,Filmes,Web,1
+GS-0010,11,57.79,6,3,Premium,Desporto,Smart TV,0
+GS-0011,11,54.82,2,6,Premium,Series,Web,1
+GS-0012,24,58.85,4,8,Premium,Documentarios,Web,1
+GS-0013,36,33.63,2,6,Standard,Desporto,Web,1
+GS-0014,40,51.83,1,8,Basico,Desporto,Web,1
+GS-0015,24,58.05,1,2,Basico,Filmes,Mobile,0
+GS-0016,3,35.34,0,3,Standard,Documentarios,Web,1
+GS-0017,22,31.89,1,7,Basico,Series,Smart TV,1
+GS-0018,2,52.13,5,5,Premium,Documentarios,Mobile,1
+GS-0019,24,47.13,2,4,Basico,Desporto,Mobile,0
+GS-0020,44,55.15,1,3,Premium,Documentarios,Web,0
+GS-0021,30,34.09,4,7,Basico,Series,Mobile,1
+GS-0022,38,53.76,6,0,Standard,Series,Web,0
+GS-0023,2,35.95,7,8,Basico,Filmes,Smart TV,1
+GS-0024,21,34.81,6,0,Basico,Series,Web,0
+GS-0025,33,34.83,0,7,Basico,Series,Mobile,1
+GS-0026,12,54.34,6,3,Standard,Documentarios,Smart TV,0
+GS-0027,22,49.86,2,8,Basico,Documentarios,Web,1
+GS-0028,44,45.59,0,4,Standard,Desporto,Smart TV,0
+GS-0029,25,40.66,2,2,Premium,Filmes,Smart TV,0
+GS-0030,27,56.22,4,8,Basico,Documentarios,Mobile,1
+GS-0031,42,41.67,0,8,Standard,Series,Smart TV,1
+GS-0032,28,54.4,3,3,Standard,Desporto,Mobile,0
+GS-0033,16,43.07,5,3,Basico,Documentarios,Smart TV,0
+GS-0034,15,41.21,5,7,Premium,Filmes,Web,1
+GS-0035,47,43.78,2,1,Standard,Filmes,Smart TV,0
+GS-0036,44,38.94,6,8,Basico,Desporto,Web,1
+GS-0037,3,52.33,7,5,Premium,Desporto,Web,1
+GS-0038,37,44.98,7,8,Standard,Desporto,Smart TV,1
+GS-0039,7,36.87,3,7,Standard,Desporto,Web,1
+GS-0040,21,56.89,0,6,Premium,Desporto,Smart TV,1
+GS-0041,9,41.42,3,0,Premium,Series,Smart TV,0
+GS-0042,39,46.21,3,2,Basico,Series,Web,0
+GS-0043,18,57.09,6,1,Basico,Documentarios,Web,0
+GS-0044,4,48.63,7,4,Standard,Filmes,Mobile,0
+GS-0045,25,33.41,0,4,Premium,Series,Web,1
+GS-0046,14,58.09,4,4,Premium,Series,Mobile,0
+GS-0047,9,48.73,6,3,Premium,Series,Web,0
+GS-0048,26,39.95,3,4,Standard,Documentarios,Smart TV,0
+GS-0049,2,34.08,3,2,Premium,Desporto,Web,0
+GS-0050,20,53.72,4,0,Premium,Documentarios,Smart TV,0
+GS-0051,28,48.5,3,4,Standard,Filmes,Smart TV,0
+GS-0052,47,45.9,3,8,Basico,Filmes,Smart TV,1
+GS-0053,7,56.72,3,8,Basico,Filmes,Mobile,1
+GS-0054,44,53.56,5,3,Standard,Filmes,Web,0
+GS-0055,8,34.45,6,2,Premium,Series,Smart TV,0
+GS-0056,47,39.25,1,0,Standard,Series,Smart TV,0
+GS-0057,35,37.35,6,1,Basico,Documentarios,Mobile,0
+GS-0058,14,52.22,4,7,Basico,Desporto,Web,1
+GS-0059,17,30.91,3,0,Standard,Filmes,Web,0
+GS-0060,36,47.0,6,7,Standard,Documentarios,Mobile,1
+GS-0061,40,52.77,5,6,Basico,Series,Mobile,0
+GS-0062,4,56.2,7,7,Standard,Series,Web,1
+GS-0063,2,40.16,4,5,Basico,Desporto,Mobile,1
+GS-0064,6,54.54,2,8,Standard,Desporto,Web,1
+GS-0065,42,33.22,6,2,Standard,Desporto,Web,0
+GS-0066,4,55.29,2,9,Standard,Documentarios,Smart TV,1
+GS-0067,29,33.72,3,3,Basico,Series,Smart TV,0
+GS-0068,18,41.82,5,5,Standard,Series,Web,1
+GS-0069,26,53.82,5,7,Basico,Desporto,Web,1
+GS-0070,44,34.4,6,4,Basico,Filmes,Web,0
+GS-0071,34,36.78,4,2,Standard,Desporto,Web,0
+GS-0072,10,51.57,4,5,Standard,Documentarios,Web,1
+GS-0073,36,51.5,5,3,Basico,Desporto,Web,0
+GS-0074,14,49.13,4,8,Basico,Desporto,Mobile,1
+GS-0075,31,50.72,5,2,Premium,Documentarios,Web,0
+GS-0076,15,46.18,6,3,Basico,Desporto,Mobile,0
+GS-0077,8,37.45,1,6,Premium,Series,Mobile,1
+GS-0078,14,40.27,5,6,Premium,Filmes,Web,1
+GS-0079,23,35.35,2,3,Premium,Desporto,Web,0
+GS-0080,40,57.15,4,5,Standard,Documentarios,Mobile,0
+GS-0081,21,47.4,5,2,Standard,Filmes,Mobile,0
+GS-0082,16,41.93,5,5,Basico,Documentarios,Web,1
+GS-0083,45,43.76,6,1,Premium,Filmes,Web,0
+GS-0084,18,58.32,4,7,Standard,Filmes,Mobile,1
+GS-0085,47,34.5,1,1,Standard,Desporto,Mobile,0
+GS-0086,24,47.49,6,6,Standard,Series,Mobile,1
+GS-0087,26,45.08,1,8,Standard,Desporto,Smart TV,1
+GS-0088,25,48.24,7,0,Standard,Documentarios,Mobile,0
+GS-0089,45,30.44,6,7,Premium,Documentarios,Smart TV,1
+GS-0090,41,56.06,4,6,Premium,Filmes,Web,0
+GS-0091,29,57.86,0,5,Premium,Filmes,Web,0
+GS-0092,15,46.85,4,5,Premium,Series,Mobile,1
+GS-0093,45,50.8,4,5,Basico,Desporto,Web,0
+GS-0094,1,57.57,1,8,Premium,Documentarios,Web,1
+GS-0095,25,51.12,1,1,Standard,Filmes,Web,0
+GS-0096,7,34.48,4,0,Premium,Series,Web,0
+GS-0097,9,47.19,4,5,Basico,Documentarios,Smart TV,1
+GS-0098,24,48.1,4,9,Standard,Filmes,Smart TV,1
+GS-0099,1,42.62,1,7,Premium,Documentarios,Mobile,1
+GS-0100,44,51.99,4,2,Premium,Series,Mobile,0
+GS-0101,8,57.93,4,9,Premium,Series,Mobile,1
+GS-0102,24,57.67,7,0,Standard,Documentarios,Web,0
+GS-0103,11,43.43,3,8,Standard,Desporto,Web,1
+GS-0104,17,33.3,0,0,Basico,Documentarios,Smart TV,0
+GS-0105,8,59.45,2,2,Standard,Filmes,Smart TV,0
+GS-0106,35,55.07,0,7,Standard,Desporto,Mobile,1
+GS-0107,35,33.64,3,2,Premium,Filmes,Smart TV,0
+GS-0108,33,57.53,2,3,Standard,Documentarios,Smart TV,0
+GS-0109,5,56.0,6,7,Premium,Desporto,Smart TV,1
+GS-0110,42,45.47,4,0,Premium,Filmes,Smart TV,0
+GS-0111,39,47.64,3,5,Standard,Documentarios,Smart TV,0
+GS-0112,41,41.87,7,0,Basico,Documentarios,Mobile,0
+GS-0113,28,31.54,6,0,Basico,Desporto,Mobile,0
+GS-0114,7,39.96,4,7,Standard,Documentarios,Smart TV,1
+GS-0115,9,53.99,1,3,Basico,Series,Mobile,0
+GS-0116,8,30.04,5,0,Premium,Filmes,Web,0
+GS-0117,12,39.9,3,9,Premium,Filmes,Smart TV,1
+GS-0118,34,41.85,1,6,Standard,Documentarios,Web,1
+GS-0119,33,46.02,3,4,Basico,Documentarios,Mobile,0
+GS-0120,23,57.5,7,4,Basico,Series,Mobile,0
+GS-0121,24,40.29,3,0,Premium,Desporto,Web,0
+GS-0122,37,40.31,1,9,Standard,Documentarios,Mobile,1
+GS-0123,35,52.03,7,5,Basico,Documentarios,Smart TV,0
+GS-0124,44,43.47,2,8,Standard,Documentarios,Web,1
+GS-0125,40,36.64,0,8,Basico,Documentarios,Smart TV,1
+GS-0126,22,43.47,4,7,Premium,Filmes,Web,1
+GS-0127,27,34.13,3,4,Premium,Documentarios,Mobile,1
+GS-0128,35,35.19,4,0,Standard,Filmes,Web,0
+GS-0129,1,44.85,5,8,Premium,Documentarios,Web,1
+GS-0130,35,42.47,1,0,Basico,Desporto,Smart TV,0
+GS-0131,37,57.35,4,7,Premium,Series,Mobile,1
+GS-0132,47,40.77,1,4,Standard,Desporto,Smart TV,0
+GS-0133,14,47.32,4,2,Standard,Documentarios,Mobile,0
+GS-0134,3,48.87,0,6,Standard,Documentarios,Smart TV,1
+GS-0135,1,30.29,0,6,Basico,Documentarios,Web,1
+GS-0136,5,49.81,7,8,Basico,Desporto,Smart TV,1
+GS-0137,26,35.24,0,6,Basico,Documentarios,Mobile,1
+GS-0138,14,58.73,7,2,Basico,Desporto,Mobile,0
+GS-0139,39,34.36,0,0,Basico,Filmes,Web,0
+GS-0140,27,42.34,0,7,Premium,Series,Mobile,1
+GS-0141,9,32.46,0,2,Basico,Series,Smart TV,0
+GS-0142,15,59.81,1,7,Basico,Desporto,Web,1
+GS-0143,15,44.97,3,7,Premium,Filmes,Mobile,1
+GS-0144,26,47.76,7,4,Basico,Desporto,Mobile,0
+GS-0145,42,31.91,4,0,Standard,Filmes,Smart TV,0
+GS-0146,13,52.4,0,9,Basico,Documentarios,Smart TV,1
+GS-0147,32,36.2,1,6,Basico,Filmes,Web,1
+GS-0148,39,56.84,1,9,Standard,Filmes,Mobile,1
+GS-0149,32,36.05,1,4,Standard,Filmes,Smart TV,1
+GS-0150,4,35.62,7,7,Standard,Series,Web,1
+GS-0151,30,31.0,3,8,Standard,Filmes,Mobile,1
+GS-0152,37,44.06,7,6,Basico,Documentarios,Mobile,1
+GS-0153,23,46.85,4,6,Standard,Documentarios,Web,1
+GS-0154,39,31.87,3,0,Standard,Documentarios,Web,0
+GS-0155,45,53.17,2,3,Premium,Filmes,Smart TV,0
+GS-0156,15,43.5,6,1,Standard,Desporto,Mobile,0
+GS-0157,43,45.63,1,1,Standard,Desporto,Mobile,0
+GS-0158,29,43.12,7,1,Premium,Documentarios,Mobile,0
+GS-0159,36,41.92,2,3,Premium,Series,Web,0
+GS-0160,13,46.69,5,0,Basico,Desporto,Smart TV,0
+GS-0161,32,34.56,7,3,Premium,Filmes,Mobile,0
+GS-0162,7,35.36,0,1,Basico,Desporto,Web,0
+GS-0163,22,55.75,6,4,Premium,Documentarios,Mobile,0
+GS-0164,28,58.28,0,2,Premium,Series,Smart TV,0
+GS-0165,2,41.1,3,7,Basico,Desporto,Mobile,1
+GS-0166,42,38.02,6,3,Premium,Desporto,Smart TV,0
+GS-0167,45,49.22,7,0,Basico,Documentarios,Smart TV,0
+GS-0168,6,42.16,4,0,Premium,Series,Mobile,0
+GS-0169,28,30.66,2,9,Standard,Series,Mobile,1
+GS-0170,28,34.58,4,2,Premium,Documentarios,Smart TV,0
+GS-0171,44,51.38,7,8,Basico,Filmes,Web,1
+GS-0172,44,49.67,3,6,Premium,Desporto,Smart TV,1
+GS-0173,20,30.71,0,1,Basico,Filmes,Mobile,0
+GS-0174,30,36.56,6,8,Basico,Desporto,Mobile,1
+GS-0175,11,36.83,4,9,Standard,Desporto,Web,1
+GS-0176,28,50.06,7,1,Standard,Filmes,Smart TV,0
+GS-0177,25,30.49,4,2,Basico,Documentarios,Smart TV,0
+GS-0178,39,33.02,7,9,Premium,Documentarios,Smart TV,1
+GS-0179,33,53.9,0,1,Basico,Desporto,Mobile,0
+GS-0180,1,35.26,6,2,Basico,Documentarios,Smart TV,0
+GS-0181,27,49.48,2,5,Premium,Desporto,Web,1
+GS-0182,13,37.05,0,8,Premium,Documentarios,Mobile,1
+GS-0183,41,32.88,4,8,Premium,Desporto,Mobile,1
+GS-0184,3,37.2,2,6,Premium,Documentarios,Smart TV,1
+GS-0185,39,51.57,7,2,Basico,Series,Web,0
+GS-0186,6,55.57,2,3,Basico,Filmes,Mobile,0
+GS-0187,8,54.81,7,5,Standard,Series,Mobile,0
+GS-0188,27,41.82,0,4,Basico,Filmes,Smart TV,0
+GS-0189,9,49.94,4,1,Premium,Filmes,Smart TV,0
+GS-0190,37,36.05,3,5,Standard,Desporto,Web,1
+GS-0191,33,38.69,4,2,Premium,Filmes,Smart TV,0
+GS-0192,42,56.79,7,7,Basico,Series,Web,0
+GS-0193,44,30.29,1,1,Standard,Series,Mobile,0
+GS-0194,24,32.47,6,0,Premium,Documentarios,Web,0
+GS-0195,15,36.14,5,8,Standard,Series,Web,1
+GS-0196,32,30.7,3,2,Standard,Documentarios,Web,0
+GS-0197,32,35.34,2,0,Basico,Filmes,Mobile,0
+GS-0198,24,47.39,3,6,Premium,Series,Smart TV,1
+GS-0199,41,42.54,6,9,Standard,Filmes,Mobile,1
+GS-0200,12,56.68,2,4,Standard,Series,Smart TV,0
+GS-0201,39,54.42,6,4,Premium,Series,Web,0
+GS-0202,2,40.15,2,0,Standard,Documentarios,Web,0
+GS-0203,3,37.68,3,8,Standard,Filmes,Web,1
+GS-0204,37,41.29,2,6,Standard,Series,Web,1
+GS-0205,17,47.61,2,7,Premium,Desporto,Web,1
+GS-0206,2,37.94,1,8,Premium,Filmes,Smart TV,1
+GS-0207,2,48.62,4,5,Premium,Filmes,Smart TV,1
+GS-0208,28,42.18,4,4,Premium,Filmes,Web,0
+GS-0209,23,46.46,5,5,Basico,Documentarios,Mobile,1
+GS-0210,37,42.98,5,1,Standard,Desporto,Mobile,0
+GS-0211,32,38.73,7,3,Premium,Filmes,Web,0
+GS-0212,33,58.35,7,2,Standard,Series,Smart TV,0
+GS-0213,1,52.81,7,6,Standard,Series,Mobile,1
+GS-0214,19,34.1,1,8,Basico,Documentarios,Mobile,1
+GS-0215,2,55.95,5,4,Premium,Series,Mobile,0
+GS-0216,44,44.52,6,5,Premium,Filmes,Web,0
+GS-0217,26,56.74,7,9,Standard,Series,Mobile,1
+GS-0218,32,53.9,7,1,Premium,Filmes,Mobile,0
+GS-0219,6,42.66,3,2,Standard,Series,Mobile,0
+GS-0220,32,30.57,0,2,Standard,Desporto,Mobile,0
+GS-0221,4,37.96,6,8,Basico,Documentarios,Smart TV,1
+GS-0222,11,46.15,7,6,Basico,Documentarios,Web,1
+GS-0223,17,48.9,7,7,Basico,Desporto,Web,1
+GS-0224,38,37.64,7,9,Standard,Desporto,Smart TV,1
+GS-0225,24,34.08,0,8,Premium,Documentarios,Smart TV,1
+GS-0226,5,54.95,0,5,Basico,Desporto,Web,1
+GS-0227,34,59.43,1,3,Premium,Filmes,Mobile,0
+GS-0228,6,45.67,6,0,Basico,Series,Mobile,0
+GS-0229,22,35.05,1,7,Basico,Documentarios,Web,1
+GS-0230,11,38.07,2,6,Standard,Desporto,Mobile,1
+GS-0231,16,30.45,0,1,Basico,Filmes,Smart TV,0
+GS-0232,33,57.33,3,7,Basico,Documentarios,Mobile,1
+GS-0233,9,33.43,5,4,Standard,Desporto,Mobile,1
+GS-0234,6,47.2,3,6,Premium,Documentarios,Mobile,1
+GS-0235,16,38.12,5,3,Basico,Desporto,Web,0
+GS-0236,29,46.53,0,4,Standard,Documentarios,Smart TV,0
+GS-0237,3,49.44,0,7,Basico,Filmes,Mobile,1
+GS-0238,20,54.79,0,0,Standard,Filmes,Web,0
+GS-0239,36,36.09,1,0,Premium,Series,Mobile,0
+GS-0240,19,30.23,6,3,Premium,Documentarios,Smart TV,0
+GS-0241,26,34.01,5,2,Standard,Series,Mobile,0
+GS-0242,3,56.9,6,9,Standard,Documentarios,Smart TV,1
+GS-0243,19,56.12,1,1,Standard,Desporto,Mobile,0
+GS-0244,20,47.82,1,2,Premium,Desporto,Smart TV,0
+GS-0245,32,47.92,4,0,Basico,Series,Mobile,0
+GS-0246,7,49.85,3,0,Premium,Documentarios,Smart TV,0
+GS-0247,41,35.16,3,5,Standard,Series,Mobile,1
+GS-0248,33,57.33,2,4,Standard,Filmes,Mobile,0
+GS-0249,40,42.46,7,7,Premium,Series,Web,1
+GS-0250,39,41.39,1,1,Standard,Series,Web,0
+GS-0251,18,45.47,5,3,Premium,Desporto,Smart TV,0
+GS-0252,40,31.31,4,7,Standard,Series,Mobile,1
+GS-0253,1,34.89,4,5,Basico,Documentarios,Smart TV,1
+GS-0254,11,52.04,7,0,Basico,Desporto,Web,0
+GS-0255,28,32.38,6,3,Standard,Series,Smart TV,0
+GS-0256,25,47.99,7,0,Premium,Filmes,Smart TV,0
+GS-0257,23,37.26,7,1,Basico,Series,Web,0
+GS-0258,31,41.58,7,4,Premium,Series,Mobile,0
+GS-0259,30,38.56,3,7,Standard,Series,Smart TV,1
+GS-0260,42,40.57,1,7,Premium,Desporto,Web,1
+GS-0261,35,51.47,2,2,Basico,Documentarios,Mobile,0
+GS-0262,7,38.81,1,3,Premium,Filmes,Web,1
+GS-0263,16,46.89,6,9,Premium,Series,Smart TV,1
+GS-0264,26,44.18,0,5,Standard,Documentarios,Mobile,1
+GS-0265,2,49.81,7,9,Standard,Documentarios,Mobile,1
+GS-0266,1,58.0,1,2,Standard,Desporto,Web,0
+GS-0267,12,51.88,6,1,Basico,Filmes,Web,0
+GS-0268,5,36.35,0,5,Basico,Desporto,Web,1
+GS-0269,37,30.84,0,4,Standard,Documentarios,Mobile,1
+GS-0270,32,37.77,7,9,Standard,Documentarios,Mobile,1
+GS-0271,9,47.75,2,4,Basico,Documentarios,Smart TV,1
+GS-0272,41,31.44,5,9,Basico,Desporto,Mobile,1
+GS-0273,35,44.79,3,4,Basico,Filmes,Smart TV,0
+GS-0274,19,47.81,1,9,Basico,Series,Web,1
+GS-0275,16,39.93,0,4,Standard,Desporto,Web,1
+GS-0276,3,53.03,1,2,Basico,Documentarios,Mobile,0
+GS-0277,20,33.1,5,6,Standard,Desporto,Web,1
+GS-0278,24,32.15,3,5,Premium,Documentarios,Web,1
+GS-0279,33,51.75,5,3,Premium,Series,Mobile,0
+GS-0280,24,44.76,3,1,Basico,Series,Smart TV,0
+GS-0281,11,50.55,4,8,Premium,Filmes,Mobile,1
+GS-0282,8,42.94,3,0,Premium,Documentarios,Smart TV,0
+GS-0283,36,37.29,7,3,Premium,Filmes,Mobile,0
+GS-0284,38,54.47,2,0,Basico,Filmes,Mobile,0
+GS-0285,40,53.88,5,5,Basico,Series,Web,0
+GS-0286,20,50.74,0,3,Premium,Desporto,Mobile,0
+GS-0287,35,38.06,7,4,Standard,Desporto,Mobile,0
+GS-0288,25,47.61,4,4,Premium,Filmes,Smart TV,0
+GS-0289,35,40.73,2,8,Basico,Series,Web,1
+GS-0290,25,32.65,1,0,Basico,Documentarios,Smart TV,0
+GS-0291,29,57.42,7,1,Basico,Desporto,Smart TV,0
+GS-0292,18,34.0,5,5,Premium,Filmes,Web,1
+GS-0293,46,58.41,6,4,Standard,Desporto,Web,0
+GS-0294,18,43.28,6,6,Basico,Desporto,Web,1
+GS-0295,2,35.45,0,2,Basico,Documentarios,Mobile,0
+GS-0296,35,46.16,3,2,Premium,Series,Web,0
+GS-0297,16,56.09,0,9,Standard,Documentarios,Web,1
+GS-0298,41,51.87,6,1,Premium,Series,Web,0
+GS-0299,36,54.1,1,2,Basico,Desporto,Smart TV,0
+GS-0300,33,49.66,4,9,Standard,Filmes,Smart TV,1
+GS-0301,4,50.67,4,0,Standard,Documentarios,Mobile,0
+GS-0302,33,55.38,5,4,Basico,Series,Smart TV,0
+GS-0303,14,37.39,4,4,Standard,Desporto,Mobile,1
+GS-0304,21,44.58,5,6,Standard,Series,Smart TV,1
+GS-0305,20,36.54,7,3,Premium,Series,Web,0
+GS-0306,8,59.53,5,2,Basico,Series,Smart TV,0
+GS-0307,7,58.22,7,0,Basico,Desporto,Mobile,0
+GS-0308,3,31.08,5,7,Basico,Filmes,Smart TV,1
+GS-0309,17,51.07,6,2,Basico,Filmes,Web,0
+GS-0310,33,57.66,6,1,Basico,Filmes,Mobile,0
+GS-0311,12,35.32,3,3,Standard,Series,Web,0
+GS-0312,22,46.94,7,2,Premium,Desporto,Web,0
+GS-0313,22,57.36,2,0,Basico,Series,Mobile,0
+GS-0314,46,30.92,7,2,Premium,Filmes,Web,0
+GS-0315,30,50.82,5,1,Premium,Filmes,Web,0
+GS-0316,38,38.82,5,7,Standard,Desporto,Smart TV,1
+GS-0317,38,57.63,2,5,Basico,Series,Web,0
+GS-0318,45,59.03,0,8,Standard,Documentarios,Web,1
+GS-0319,8,58.23,5,7,Basico,Documentarios,Web,1
+GS-0320,27,44.13,3,9,Standard,Filmes,Web,1
+GS-0321,27,55.76,4,2,Premium,Desporto,Mobile,0
+GS-0322,34,55.24,4,4,Basico,Series,Smart TV,0
+GS-0323,21,39.47,1,6,Premium,Series,Web,1
+GS-0324,30,54.77,1,4,Premium,Filmes,Web,0
+GS-0325,33,31.01,4,7,Standard,Filmes,Mobile,1
+GS-0326,28,47.79,4,4,Basico,Series,Web,0
+GS-0327,47,36.8,6,0,Premium,Series,Mobile,0
+GS-0328,33,33.52,3,4,Standard,Filmes,Smart TV,0
+GS-0329,5,32.21,2,3,Basico,Series,Smart TV,1
+GS-0330,19,50.79,1,5,Basico,Documentarios,Web,1
+GS-0331,4,40.1,6,2,Premium,Filmes,Web,0
+GS-0332,35,51.64,6,4,Basico,Series,Web,0
+GS-0333,17,31.86,2,1,Premium,Filmes,Mobile,0
+GS-0334,44,39.36,6,5,Basico,Desporto,Web,0
+GS-0335,28,46.08,7,5,Standard,Filmes,Web,0
+GS-0336,30,53.62,3,4,Premium,Filmes,Smart TV,0
+GS-0337,29,39.46,4,5,Premium,Desporto,Web,1
+GS-0338,46,48.68,5,6,Basico,Documentarios,Smart TV,0
+GS-0339,6,56.48,2,4,Basico,Series,Web,0
+GS-0340,35,48.38,4,0,Premium,Desporto,Smart TV,0
+GS-0341,41,36.89,4,7,Basico,Filmes,Web,1
+GS-0342,37,30.63,0,3,Standard,Series,Smart TV,0
+GS-0343,24,56.0,7,8,Basico,Desporto,Mobile,1
+GS-0344,29,30.54,2,9,Standard,Series,Smart TV,1
+GS-0345,46,56.14,6,5,Standard,Series,Smart TV,0
+GS-0346,31,45.77,5,0,Standard,Desporto,Smart TV,0
+GS-0347,35,58.07,2,2,Standard,Series,Web,0
+GS-0348,33,53.86,6,2,Standard,Documentarios,Web,0
+GS-0349,21,59.84,4,9,Basico,Desporto,Web,1
+GS-0350,32,40.42,5,3,Standard,Documentarios,Mobile,0
+GS-0351,23,52.92,6,5,Basico,Filmes,Mobile,0
+GS-0352,33,41.96,3,6,Standard,Series,Smart TV,1
+GS-0353,3,44.3,6,9,Premium,Filmes,Mobile,1
+GS-0354,18,48.73,0,3,Standard,Filmes,Smart TV,0
+GS-0355,25,56.11,7,5,Premium,Series,Smart TV,0
+GS-0356,42,59.42,4,0,Standard,Desporto,Smart TV,0
+GS-0357,31,52.95,6,7,Standard,Series,Mobile,1
+GS-0358,3,42.43,7,6,Standard,Filmes,Web,1
+GS-0359,40,42.54,1,8,Premium,Filmes,Mobile,1
+GS-0360,46,52.03,1,2,Premium,Desporto,Smart TV,0
+GS-0361,24,37.06,7,1,Standard,Series,Smart TV,0
+GS-0362,32,33.21,7,0,Basico,Filmes,Mobile,0
+GS-0363,47,40.54,0,2,Standard,Documentarios,Smart TV,0
+GS-0364,22,38.52,3,4,Premium,Filmes,Smart TV,0
+GS-0365,23,38.79,4,1,Standard,Filmes,Mobile,0
+GS-0366,2,36.91,2,2,Premium,Desporto,Mobile,0
+GS-0367,27,31.16,0,3,Premium,Documentarios,Mobile,1
+GS-0368,42,30.44,3,6,Premium,Filmes,Smart TV,1
+GS-0369,2,59.53,7,2,Standard,Filmes,Smart TV,0
+GS-0370,26,42.73,2,8,Premium,Documentarios,Web,1
+GS-0371,17,41.43,7,7,Premium,Series,Web,1
+GS-0372,40,50.29,7,3,Standard,Series,Mobile,0
+GS-0373,33,36.45,1,0,Premium,Filmes,Web,0
+GS-0374,9,58.4,1,0,Standard,Filmes,Smart TV,0
+GS-0375,43,53.49,2,0,Premium,Series,Web,0
+GS-0376,39,32.58,0,0,Basico,Desporto,Smart TV,0
+GS-0377,29,42.43,1,7,Basico,Documentarios,Mobile,1
+GS-0378,42,56.27,4,2,Premium,Documentarios,Mobile,0
+GS-0379,26,58.24,7,5,Basico,Desporto,Smart TV,0
+GS-0380,35,43.92,5,2,Standard,Desporto,Web,0
+GS-0381,25,48.3,6,4,Basico,Desporto,Mobile,0
+GS-0382,24,34.91,2,6,Premium,Desporto,Mobile,1
+GS-0383,13,59.64,2,1,Premium,Desporto,Web,0
+GS-0384,7,36.85,1,5,Standard,Desporto,Web,1
+GS-0385,36,58.18,0,5,Premium,Documentarios,Smart TV,0
+GS-0386,45,49.39,7,2,Standard,Desporto,Web,0
+GS-0387,20,48.13,4,5,Basico,Series,Web,1
+GS-0388,1,45.28,0,9,Basico,Desporto,Web,1
+GS-0389,8,36.82,3,9,Standard,Desporto,Smart TV,1
+GS-0390,46,35.2,3,4,Standard,Documentarios,Smart TV,0
+GS-0391,16,36.51,5,1,Premium,Documentarios,Mobile,0
+GS-0392,14,35.49,1,8,Basico,Desporto,Smart TV,1
+GS-0393,12,53.29,1,7,Standard,Documentarios,Mobile,1
+GS-0394,23,40.4,1,2,Basico,Filmes,Web,0
+GS-0395,15,31.64,5,7,Standard,Documentarios,Mobile,1
+GS-0396,28,58.97,3,8,Basico,Documentarios,Mobile,1
+GS-0397,34,56.41,0,2,Premium,Documentarios,Web,0
+GS-0398,2,57.73,5,2,Basico,Documentarios,Mobile,0
+GS-0399,32,59.75,5,1,Basico,Series,Smart TV,0
+GS-0400,23,35.12,0,7,Basico,Series,Smart TV,1
+GS-0401,22,41.79,1,9,Basico,Series,Smart TV,1
+GS-0402,25,52.65,4,0,Basico,Desporto,Smart TV,0
+GS-0403,22,50.78,0,7,Premium,Desporto,Mobile,1
+GS-0404,22,34.52,3,6,Standard,Filmes,Mobile,1
+GS-0405,42,54.37,2,6,Basico,Series,Web,1
+GS-0406,6,36.63,7,2,Premium,Desporto,Mobile,0
+GS-0407,15,36.61,2,0,Basico,Documentarios,Mobile,0
+GS-0408,43,46.01,6,3,Basico,Documentarios,Mobile,0
+GS-0409,37,47.69,6,8,Standard,Series,Web,1
+GS-0410,33,47.3,5,4,Basico,Filmes,Smart TV,0
+GS-0411,8,32.64,7,0,Premium,Filmes,Mobile,0
+GS-0412,44,56.22,2,4,Premium,Documentarios,Web,0
+GS-0413,44,37.87,4,7,Standard,Filmes,Web,1
+GS-0414,5,33.79,1,7,Basico,Series,Web,1
+GS-0415,39,56.56,3,4,Premium,Documentarios,Smart TV,0
+GS-0416,4,58.57,6,8,Basico,Desporto,Mobile,1
+GS-0417,6,55.76,4,0,Basico,Desporto,Web,0
+GS-0418,45,54.19,3,3,Basico,Filmes,Smart TV,0
+GS-0419,32,49.56,3,2,Standard,Documentarios,Web,0
+GS-0420,30,46.43,1,1,Basico,Documentarios,Web,0
+GS-0421,47,32.51,7,7,Premium,Desporto,Web,1
+GS-0422,35,42.15,5,6,Basico,Documentarios,Web,1
+GS-0423,40,41.08,2,8,Premium,Documentarios,Web,1
+GS-0424,16,37.69,1,1,Basico,Documentarios,Smart TV,0
+GS-0425,13,51.6,4,3,Premium,Filmes,Mobile,0
+GS-0426,42,44.78,5,5,Premium,Documentarios,Mobile,0
+GS-0427,30,32.33,4,2,Basico,Series,Mobile,0
+GS-0428,19,36.51,5,7,Basico,Filmes,Mobile,1
+GS-0429,17,50.4,7,2,Premium,Documentarios,Smart TV,0
+GS-0430,19,32.18,6,1,Standard,Documentarios,Smart TV,0
+GS-0431,28,55.44,4,2,Basico,Series,Smart TV,0
+GS-0432,26,44.75,1,5,Standard,Filmes,Web,1
+GS-0433,37,44.32,5,1,Basico,Desporto,Web,0
+GS-0434,26,47.67,5,7,Basico,Desporto,Web,1
+GS-0435,23,54.64,3,0,Basico,Filmes,Mobile,0
+GS-0436,9,40.33,3,6,Basico,Documentarios,Web,1
+GS-0437,12,50.24,0,1,Standard,Documentarios,Mobile,0
+GS-0438,1,46.87,4,9,Basico,Desporto,Web,1
+GS-0439,1,37.91,3,5,Premium,Desporto,Mobile,1
+GS-0440,47,56.26,0,1,Premium,Desporto,Web,0
+GS-0441,34,53.82,6,1,Standard,Series,Web,0
+GS-0442,32,49.65,6,9,Basico,Desporto,Smart TV,1
+GS-0443,25,55.42,3,7,Premium,Series,Web,1
+GS-0444,40,55.92,4,1,Standard,Filmes,Web,0
+GS-0445,45,51.15,5,6,Basico,Documentarios,Smart TV,0
+GS-0446,1,55.01,2,2,Premium,Desporto,Mobile,0
+GS-0447,16,50.82,7,7,Premium,Documentarios,Smart TV,1
+GS-0448,39,50.3,4,6,Standard,Documentarios,Smart TV,1
+GS-0449,5,48.46,7,7,Basico,Desporto,Mobile,1
+GS-0450,22,52.48,1,6,Basico,Desporto,Web,1
+GS-0451,29,34.66,6,5,Premium,Filmes,Mobile,1
+GS-0452,3,56.33,3,6,Premium,Series,Web,1
+GS-0453,12,56.06,3,4,Premium,Series,Web,0
+GS-0454,26,30.78,7,6,Basico,Documentarios,Mobile,1
+GS-0455,16,54.67,5,0,Standard,Desporto,Smart TV,0
+GS-0456,37,33.77,7,0,Standard,Filmes,Mobile,0
+GS-0457,22,39.95,1,8,Basico,Filmes,Web,1
+GS-0458,29,52.21,5,4,Standard,Filmes,Mobile,0
+GS-0459,14,34.72,1,4,Premium,Filmes,Mobile,1
+GS-0460,28,54.44,2,2,Standard,Filmes,Web,0
+GS-0461,5,54.86,6,4,Standard,Series,Smart TV,0
+GS-0462,47,45.12,3,2,Standard,Series,Mobile,0
+GS-0463,30,30.09,3,8,Premium,Series,Web,1
+GS-0464,46,38.51,2,8,Basico,Desporto,Web,1
+GS-0465,5,48.41,0,5,Premium,Documentarios,Mobile,1
+GS-0466,12,59.34,6,0,Basico,Filmes,Smart TV,0
+GS-0467,16,48.85,5,6,Basico,Desporto,Mobile,1
+GS-0468,26,37.69,2,6,Basico,Filmes,Smart TV,1
+GS-0469,26,48.92,5,9,Standard,Series,Smart TV,1
+GS-0470,21,46.1,7,9,Standard,Desporto,Smart TV,1
+GS-0471,39,53.3,4,3,Basico,Series,Smart TV,0
+GS-0472,36,33.11,3,7,Basico,Filmes,Mobile,1
+GS-0473,33,52.73,5,5,Standard,Filmes,Web,0
+GS-0474,30,46.14,1,3,Premium,Documentarios,Web,0
+GS-0475,37,58.79,5,3,Basico,Filmes,Web,0
+GS-0476,23,40.16,4,1,Premium,Series,Web,0
+GS-0477,10,48.88,6,1,Standard,Filmes,Web,0
+GS-0478,5,57.86,3,3,Basico,Documentarios,Web,0
+GS-0479,36,32.98,7,4,Premium,Documentarios,Mobile,0
+GS-0480,34,58.02,2,7,Premium,Series,Smart TV,1
+GS-0481,31,50.54,7,5,Premium,Desporto,Web,0
+GS-0482,10,31.94,4,3,Standard,Filmes,Mobile,0
+GS-0483,19,38.93,3,6,Standard,Documentarios,Web,1
+GS-0484,32,51.15,5,7,Premium,Filmes,Web,1
+GS-0485,1,31.92,6,1,Premium,Filmes,Smart TV,0
+GS-0486,5,47.37,0,6,Standard,Desporto,Smart TV,1
+GS-0487,45,40.28,6,1,Premium,Documentarios,Smart TV,0
+GS-0488,4,48.53,0,1,Premium,Filmes,Web,0
+GS-0489,16,31.27,1,7,Standard,Documentarios,Web,1
+GS-0490,24,56.05,6,1,Premium,Series,Web,0
+GS-0491,16,59.1,3,8,Premium,Series,Smart TV,1
+GS-0492,2,58.97,0,0,Premium,Filmes,Mobile,0
+GS-0493,28,52.39,2,8,Standard,Documentarios,Web,1
+GS-0494,32,33.8,3,0,Premium,Filmes,Web,0
+GS-0495,27,52.65,2,9,Standard,Documentarios,Web,1
+GS-0496,20,30.64,6,9,Standard,Documentarios,Mobile,1
+GS-0497,24,30.56,2,1,Basico,Desporto,Web,0
+GS-0498,12,39.61,0,5,Basico,Desporto,Mobile,1
+GS-0499,35,44.56,3,5,Premium,Desporto,Web,1
+GS-0500,33,53.01,5,0,Standard,Filmes,Mobile,0
+GS-0501,33,50.4,4,6,Basico,Desporto,Web,1
+GS-0502,43,43.28,0,7,Premium,Desporto,Smart TV,1
+GS-0503,37,38.11,0,1,Basico,Series,Smart TV,0
+GS-0504,12,59.81,5,7,Basico,Documentarios,Smart TV,1
+GS-0505,3,42.69,3,8,Standard,Documentarios,Smart TV,1
+GS-0506,1,43.44,3,5,Standard,Desporto,Web,1
+GS-0507,33,34.81,7,4,Basico,Documentarios,Smart TV,0
+GS-0508,40,53.74,6,8,Basico,Series,Mobile,1
+GS-0509,10,50.71,2,8,Standard,Series,Smart TV,1
+GS-0510,43,36.52,6,0,Premium,Desporto,Smart TV,0
+GS-0511,44,32.37,5,2,Standard,Series,Smart TV,0
+GS-0512,29,50.31,6,8,Basico,Documentarios,Web,1
+GS-0513,13,49.54,5,1,Premium,Filmes,Smart TV,0
+GS-0514,12,38.1,3,3,Basico,Documentarios,Mobile,0
+GS-0515,31,58.43,2,3,Premium,Filmes,Smart TV,0
+GS-0516,46,34.43,6,1,Basico,Desporto,Smart TV,0
+GS-0517,2,42.87,0,2,Premium,Filmes,Smart TV,0
+GS-0518,35,58.21,1,2,Premium,Series,Mobile,0
+GS-0519,23,42.49,7,0,Basico,Documentarios,Smart TV,0
+GS-0520,17,49.06,4,5,Premium,Filmes,Mobile,1
+GS-0521,26,41.83,0,7,Standard,Documentarios,Mobile,1
+GS-0522,8,38.13,3,2,Basico,Desporto,Smart TV,0
+GS-0523,29,59.42,4,4,Standard,Desporto,Mobile,0
+GS-0524,26,42.18,1,0,Basico,Series,Web,0
+GS-0525,10,56.72,1,9,Premium,Desporto,Smart TV,1
+GS-0526,26,36.8,2,6,Premium,Filmes,Smart TV,1
+GS-0527,34,36.29,4,9,Premium,Desporto,Mobile,1
+GS-0528,41,30.83,2,0,Basico,Series,Mobile,0
+GS-0529,7,49.45,0,8,Standard,Documentarios,Smart TV,1
+GS-0530,4,40.96,5,7,Standard,Documentarios,Web,1
+GS-0531,45,55.83,5,6,Basico,Desporto,Mobile,0
+GS-0532,11,44.1,5,9,Basico,Filmes,Mobile,1
+GS-0533,29,58.95,4,6,Standard,Series,Web,1
+GS-0534,36,35.47,5,4,Standard,Filmes,Web,0
+GS-0535,25,55.96,0,4,Standard,Series,Smart TV,0
+GS-0536,21,53.2,2,4,Standard,Desporto,Web,0
+GS-0537,36,53.03,4,0,Basico,Series,Smart TV,0
+GS-0538,10,55.24,2,7,Basico,Series,Web,1
+GS-0539,37,52.73,4,0,Premium,Desporto,Mobile,0
+GS-0540,9,48.69,2,3,Standard,Filmes,Smart TV,0
+GS-0541,24,33.84,1,8,Premium,Desporto,Smart TV,1
+GS-0542,35,30.88,2,8,Basico,Series,Smart TV,1
+GS-0543,35,57.53,5,4,Basico,Desporto,Web,0
+GS-0544,36,48.4,1,3,Premium,Series,Mobile,0
+GS-0545,18,53.8,2,2,Standard,Desporto,Smart TV,0
+GS-0546,39,44.35,4,2,Standard,Documentarios,Smart TV,0
+GS-0547,32,33.42,4,4,Standard,Documentarios,Smart TV,0
+GS-0548,24,33.66,7,9,Standard,Desporto,Smart TV,1
+GS-0549,23,50.47,4,0,Premium,Filmes,Mobile,0
+GS-0550,32,42.81,3,4,Premium,Series,Web,0
+GS-0551,37,35.92,0,5,Basico,Documentarios,Mobile,1
+GS-0552,12,44.65,4,6,Standard,Filmes,Smart TV,1
+GS-0553,13,31.83,1,8,Standard,Series,Mobile,1
+GS-0554,23,47.36,7,2,Standard,Documentarios,Smart TV,0
+GS-0555,25,37.97,4,1,Premium,Documentarios,Web,0
+GS-0556,35,53.83,3,2,Standard,Desporto,Web,0
+GS-0557,41,39.21,5,8,Premium,Series,Web,1
+GS-0558,30,43.56,1,6,Standard,Filmes,Smart TV,1
+GS-0559,17,30.25,3,8,Standard,Filmes,Mobile,1
+GS-0560,20,32.07,5,1,Basico,Filmes,Web,0
+GS-0561,25,41.67,6,4,Standard,Series,Smart TV,0
+GS-0562,22,44.3,6,3,Standard,Filmes,Smart TV,0
+GS-0563,13,47.9,1,1,Basico,Filmes,Mobile,0
+GS-0564,19,38.65,2,8,Premium,Filmes,Web,1
+GS-0565,36,50.75,0,8,Premium,Desporto,Smart TV,1
+GS-0566,12,55.7,7,5,Standard,Desporto,Mobile,0
+GS-0567,41,53.3,0,5,Premium,Series,Web,0
+GS-0568,19,31.09,3,7,Standard,Series,Mobile,1
+GS-0569,12,44.32,5,5,Basico,Filmes,Mobile,1
+GS-0570,9,33.05,0,0,Basico,Desporto,Smart TV,0
+GS-0571,7,37.16,5,3,Standard,Documentarios,Smart TV,0
+GS-0572,28,59.5,5,6,Basico,Documentarios,Smart TV,0
+GS-0573,14,34.17,3,1,Basico,Filmes,Mobile,0
+GS-0574,31,44.87,3,8,Standard,Filmes,Smart TV,1
+GS-0575,19,48.44,3,7,Standard,Desporto,Mobile,1
+GS-0576,47,50.97,0,7,Basico,Desporto,Mobile,1
+GS-0577,16,46.69,6,6,Premium,Desporto,Smart TV,1
+GS-0578,5,30.19,3,3,Premium,Series,Web,1
+GS-0579,35,39.69,7,1,Standard,Series,Web,0
+GS-0580,12,45.43,0,2,Standard,Filmes,Web,0
+GS-0581,25,32.54,3,5,Premium,Series,Mobile,1
+GS-0582,21,40.42,4,4,Basico,Desporto,Mobile,0
+GS-0583,36,30.9,5,7,Premium,Desporto,Mobile,1
+GS-0584,23,32.26,7,5,Premium,Series,Smart TV,1
+GS-0585,16,41.81,3,5,Premium,Documentarios,Mobile,1
+GS-0586,39,33.88,1,0,Premium,Filmes,Smart TV,0
+GS-0587,45,46.93,5,3,Standard,Documentarios,Smart TV,0
+GS-0588,42,50.58,5,4,Standard,Filmes,Web,0
+GS-0589,39,53.92,3,2,Basico,Documentarios,Web,0
+GS-0590,14,35.9,6,8,Basico,Series,Web,1
+GS-0591,31,34.92,2,0,Basico,Filmes,Smart TV,0
+GS-0592,5,33.04,6,5,Basico,Filmes,Smart TV,1
+GS-0593,35,48.99,3,5,Premium,Filmes,Smart TV,0
+GS-0594,23,51.09,5,9,Standard,Desporto,Mobile,1
+GS-0595,29,30.85,7,4,Standard,Desporto,Smart TV,0
+GS-0596,43,57.99,1,4,Basico,Documentarios,Web,0
+GS-0597,11,31.46,7,9,Basico,Series,Web,1
+GS-0598,18,46.14,7,4,Premium,Desporto,Smart TV,0
+GS-0599,47,51.17,5,5,Premium,Filmes,Smart TV,0
+GS-0600,12,56.03,6,7,Basico,Desporto,Web,1
+GS-0601,9,51.32,1,1,Standard,Series,Smart TV,0
+GS-0602,10,53.95,0,5,Standard,Desporto,Web,1
+GS-0603,44,40.08,4,0,Standard,Filmes,Mobile,0
+GS-0604,17,54.34,5,3,Basico,Documentarios,Web,0
+GS-0605,38,32.3,3,9,Standard,Filmes,Mobile,1
+GS-0606,7,56.74,0,2,Premium,Series,Smart TV,0
+GS-0607,46,46.33,4,8,Premium,Documentarios,Smart TV,1
+GS-0608,13,54.42,3,2,Basico,Desporto,Mobile,0
+GS-0609,40,43.47,7,5,Premium,Desporto,Smart TV,0
+GS-0610,42,49.21,2,0,Basico,Desporto,Mobile,0
+GS-0611,9,45.69,3,5,Standard,Documentarios,Smart TV,1
+GS-0612,27,51.85,1,3,Standard,Filmes,Web,0
+GS-0613,2,32.35,1,7,Standard,Documentarios,Smart TV,1
+GS-0614,5,31.71,2,8,Premium,Documentarios,Web,1
+GS-0615,29,37.31,0,3,Basico,Series,Web,0
+GS-0616,37,34.69,4,9,Standard,Documentarios,Mobile,1
+GS-0617,38,56.05,3,9,Basico,Desporto,Smart TV,1
+GS-0618,19,36.48,1,5,Standard,Filmes,Mobile,1
+GS-0619,8,59.18,0,0,Premium,Filmes,Smart TV,0
+GS-0620,45,40.01,2,3,Premium,Filmes,Web,0
+GS-0621,1,35.36,6,6,Basico,Desporto,Web,1
+GS-0622,22,53.59,5,0,Premium,Desporto,Smart TV,0
+GS-0623,17,49.66,6,7,Premium,Desporto,Smart TV,1
+GS-0624,7,44.85,6,9,Basico,Desporto,Mobile,1
+GS-0625,25,46.56,1,5,Standard,Desporto,Smart TV,1
+GS-0626,45,51.48,7,4,Premium,Documentarios,Smart TV,0
+GS-0627,4,36.75,7,9,Basico,Desporto,Smart TV,1
+GS-0628,36,59.79,2,8,Premium,Desporto,Mobile,1
+GS-0629,6,59.14,3,1,Premium,Desporto,Smart TV,0
+GS-0630,31,49.41,7,4,Premium,Desporto,Web,0
+GS-0631,19,35.89,6,5,Premium,Filmes,Mobile,1
+GS-0632,44,50.31,7,6,Basico,Desporto,Mobile,0
+GS-0633,39,32.07,6,4,Basico,Documentarios,Web,0
+GS-0634,27,30.82,4,8,Basico,Documentarios,Web,1
+GS-0635,10,37.63,1,0,Premium,Documentarios,Web,0
+GS-0636,26,43.78,1,6,Premium,Series,Smart TV,1
+GS-0637,19,55.95,3,9,Premium,Filmes,Web,1
+GS-0638,39,51.72,7,6,Basico,Desporto,Smart TV,0
+GS-0639,3,52.18,7,3,Premium,Series,Mobile,0
+GS-0640,45,42.66,5,8,Standard,Desporto,Mobile,1
+GS-0641,13,40.28,0,4,Premium,Series,Web,1
+GS-0642,28,41.03,4,3,Standard,Series,Smart TV,0
+GS-0643,20,59.53,1,6,Premium,Documentarios,Web,1
+GS-0644,28,31.1,4,3,Basico,Documentarios,Web,0
+GS-0645,8,55.91,1,2,Premium,Series,Smart TV,0
+GS-0646,41,47.26,4,8,Standard,Documentarios,Web,1
+GS-0647,39,43.06,2,7,Standard,Series,Mobile,1
+GS-0648,1,51.66,6,0,Premium,Filmes,Web,0
+GS-0649,3,44.5,1,6,Standard,Documentarios,Smart TV,1
+GS-0650,13,56.1,4,8,Standard,Documentarios,Smart TV,1
+GS-0651,28,56.92,7,7,Basico,Documentarios,Mobile,1
+GS-0652,25,42.55,0,7,Premium,Filmes,Smart TV,1
+GS-0653,33,38.2,2,5,Premium,Series,Smart TV,1
+GS-0654,38,47.67,2,3,Premium,Desporto,Mobile,0
+GS-0655,6,57.27,0,7,Standard,Documentarios,Web,1
+GS-0656,44,36.22,4,2,Premium,Series,Mobile,0
+GS-0657,45,48.59,7,8,Premium,Filmes,Web,1
+GS-0658,32,48.85,3,1,Basico,Desporto,Mobile,0
+GS-0659,45,51.89,0,1,Basico,Documentarios,Web,0
+GS-0660,47,33.85,4,6,Basico,Filmes,Mobile,1
+GS-0661,21,51.37,0,9,Standard,Filmes,Web,1
+GS-0662,16,57.17,0,3,Premium,Desporto,Mobile,0
+GS-0663,21,35.29,1,9,Basico,Series,Web,1
+GS-0664,11,37.03,4,7,Basico,Documentarios,Mobile,1
+GS-0665,37,59.04,3,8,Basico,Documentarios,Smart TV,1
+GS-0666,36,35.33,6,6,Premium,Series,Web,1
+GS-0667,35,55.53,1,4,Premium,Series,Mobile,0
+GS-0668,19,44.67,0,7,Premium,Series,Web,1
+GS-0669,20,37.32,6,3,Standard,Desporto,Web,0
+GS-0670,18,56.02,5,1,Standard,Desporto,Mobile,0
+GS-0671,47,43.26,6,5,Basico,Documentarios,Web,0
+GS-0672,41,45.34,0,8,Premium,Desporto,Mobile,1
+GS-0673,14,40.68,0,0,Basico,Filmes,Smart TV,0
+GS-0674,15,47.69,7,9,Premium,Documentarios,Web,1
+GS-0675,31,34.81,4,6,Premium,Desporto,Smart TV,1
+GS-0676,1,41.63,4,9,Premium,Series,Web,1
+GS-0677,3,58.98,1,8,Standard,Filmes,Web,1
+GS-0678,16,37.64,3,9,Standard,Series,Web,1
+GS-0679,23,49.6,1,8,Premium,Documentarios,Mobile,1
+GS-0680,11,39.66,2,9,Basico,Series,Smart TV,1
+GS-0681,12,53.1,0,2,Premium,Desporto,Web,0
+GS-0682,10,33.83,6,4,Premium,Desporto,Mobile,1
+GS-0683,32,58.99,5,7,Basico,Documentarios,Web,1
+GS-0684,16,43.51,0,7,Premium,Series,Mobile,1
+GS-0685,8,36.98,0,3,Basico,Documentarios,Web,1
+GS-0686,38,32.1,1,0,Standard,Series,Smart TV,0
+GS-0687,12,34.99,5,0,Standard,Filmes,Smart TV,0
+GS-0688,24,45.49,5,3,Basico,Desporto,Web,0
+GS-0689,28,40.01,5,5,Standard,Documentarios,Mobile,1
+GS-0690,8,54.77,1,7,Standard,Filmes,Web,1
+GS-0691,28,42.83,0,5,Basico,Filmes,Mobile,1
+GS-0692,36,37.36,1,8,Standard,Documentarios,Web,1
+GS-0693,26,48.41,4,8,Premium,Documentarios,Mobile,1
+GS-0694,8,51.1,4,1,Premium,Filmes,Smart TV,0
+GS-0695,28,34.91,1,9,Basico,Series,Web,1
+GS-0696,28,34.93,5,0,Standard,Filmes,Smart TV,0
+GS-0697,37,31.0,7,1,Premium,Documentarios,Smart TV,0
+GS-0698,41,51.99,0,4,Premium,Filmes,Web,0
+GS-0699,36,49.81,1,3,Standard,Series,Web,0
+GS-0700,27,44.14,1,3,Standard,Desporto,Mobile,0
+GS-0701,17,55.23,1,8,Premium,Desporto,Mobile,1
+GS-0702,9,54.07,7,7,Premium,Filmes,Smart TV,1
+GS-0703,33,47.46,7,5,Basico,Series,Mobile,0
+GS-0704,20,55.95,2,0,Basico,Desporto,Mobile,0
+GS-0705,13,36.08,4,1,Premium,Filmes,Web,0
+GS-0706,28,33.26,6,5,Basico,Filmes,Mobile,1
+GS-0707,29,37.99,5,1,Premium,Series,Smart TV,0
+GS-0708,13,31.61,3,9,Premium,Documentarios,Mobile,1
+GS-0709,46,45.84,7,4,Basico,Filmes,Smart TV,0
+GS-0710,35,58.0,6,4,Basico,Documentarios,Web,0
+GS-0711,6,31.08,7,5,Standard,Documentarios,Smart TV,1
+GS-0712,18,33.56,5,5,Standard,Desporto,Mobile,1
+GS-0713,5,43.47,3,5,Standard,Documentarios,Web,1
+GS-0714,47,57.92,2,1,Premium,Series,Mobile,0
+GS-0715,25,39.38,1,9,Basico,Desporto,Web,1
+GS-0716,2,45.12,2,2,Premium,Desporto,Web,0
+GS-0717,10,31.15,7,5,Basico,Desporto,Mobile,1
+GS-0718,30,34.35,2,7,Premium,Filmes,Mobile,1
+GS-0719,45,59.5,6,0,Standard,Filmes,Web,0
+GS-0720,5,58.85,0,0,Standard,Documentarios,Web,0
+GS-0721,33,30.05,7,1,Standard,Desporto,Mobile,0
+GS-0722,1,58.45,7,5,Premium,Desporto,Smart TV,0
+GS-0723,18,49.07,6,8,Basico,Series,Mobile,1
+GS-0724,32,55.94,4,3,Basico,Documentarios,Web,0
+GS-0725,47,43.54,3,2,Standard,Series,Mobile,0
+GS-0726,11,45.37,1,7,Standard,Documentarios,Smart TV,1
+GS-0727,21,44.57,6,9,Standard,Documentarios,Mobile,1
+GS-0728,26,49.91,3,8,Standard,Filmes,Web,1
+GS-0729,25,34.09,5,4,Basico,Filmes,Mobile,0
+GS-0730,22,30.8,3,8,Premium,Series,Web,1
+GS-0731,27,39.14,5,1,Premium,Documentarios,Web,0
+GS-0732,13,51.04,6,2,Premium,Desporto,Mobile,0
+GS-0733,33,35.96,7,6,Premium,Filmes,Web,1
+GS-0734,34,50.1,7,6,Standard,Desporto,Web,1
+GS-0735,41,59.0,4,5,Standard,Series,Smart TV,0
+GS-0736,35,32.72,6,5,Standard,Filmes,Smart TV,1
+GS-0737,1,50.08,5,1,Premium,Filmes,Smart TV,0
+GS-0738,21,43.21,3,9,Standard,Documentarios,Smart TV,1
+GS-0739,6,55.94,3,5,Standard,Series,Web,1
+GS-0740,28,35.21,5,3,Basico,Documentarios,Mobile,0
+GS-0741,17,50.68,2,2,Basico,Filmes,Web,0
+GS-0742,5,55.04,4,1,Standard,Series,Web,0
+GS-0743,31,58.24,0,0,Basico,Filmes,Web,0
+GS-0744,5,50.4,7,4,Basico,Series,Mobile,0
+GS-0745,38,44.82,1,1,Standard,Filmes,Smart TV,0
+GS-0746,3,48.44,3,1,Standard,Desporto,Web,0
+GS-0747,23,55.97,1,6,Standard,Desporto,Web,1
+GS-0748,37,47.02,0,7,Standard,Documentarios,Smart TV,1
+GS-0749,37,30.81,6,9,Premium,Desporto,Web,1
+GS-0750,10,57.83,1,7,Premium,Filmes,Mobile,1
+GS-0751,10,50.59,0,3,Standard,Filmes,Web,0
+GS-0752,19,50.2,7,0,Basico,Desporto,Web,0
+GS-0753,17,36.37,5,6,Standard,Documentarios,Smart TV,1
+GS-0754,21,49.67,2,0,Standard,Desporto,Web,0
+GS-0755,14,41.72,7,3,Basico,Series,Web,0
+GS-0756,9,49.44,3,7,Premium,Series,Mobile,1
+GS-0757,46,33.1,0,1,Standard,Series,Smart TV,0
+GS-0758,1,49.64,1,5,Standard,Desporto,Smart TV,1
+GS-0759,45,59.88,3,5,Premium,Desporto,Mobile,0
+GS-0760,13,31.35,2,8,Premium,Desporto,Web,1
+GS-0761,4,59.22,5,4,Basico,Series,Smart TV,0
+GS-0762,1,42.11,6,9,Premium,Documentarios,Smart TV,1
+GS-0763,40,56.02,3,3,Premium,Filmes,Web,0
+GS-0764,32,53.37,6,4,Premium,Desporto,Web,0
+GS-0765,34,46.91,0,9,Basico,Documentarios,Smart TV,1
+GS-0766,28,52.05,2,4,Premium,Filmes,Web,0
+GS-0767,31,56.26,1,7,Premium,Filmes,Smart TV,1
+GS-0768,8,42.02,2,9,Basico,Filmes,Web,1
+GS-0769,39,39.71,2,7,Premium,Documentarios,Web,1
+GS-0770,26,49.93,4,1,Premium,Documentarios,Mobile,0
+GS-0771,34,54.14,2,6,Basico,Series,Web,1
+GS-0772,3,52.77,2,7,Standard,Documentarios,Mobile,1
+GS-0773,12,53.83,7,5,Basico,Documentarios,Web,0
+GS-0774,1,42.97,3,4,Premium,Documentarios,Smart TV,1
+GS-0775,44,54.44,1,8,Premium,Filmes,Smart TV,1
+GS-0776,5,33.51,7,2,Premium,Desporto,Web,0
+GS-0777,30,46.23,7,9,Basico,Series,Web,1
+GS-0778,30,30.07,3,3,Premium,Desporto,Smart TV,0
+GS-0779,17,39.64,3,8,Premium,Desporto,Web,1
+GS-0780,47,40.89,0,5,Basico,Documentarios,Mobile,1
+GS-0781,23,41.79,3,7,Standard,Series,Mobile,1
+GS-0782,15,50.76,4,6,Standard,Desporto,Mobile,1
+GS-0783,37,41.56,4,1,Premium,Desporto,Mobile,0
+GS-0784,21,43.36,7,2,Basico,Series,Mobile,0
+GS-0785,14,37.03,6,0,Premium,Documentarios,Web,0
+GS-0786,2,41.1,0,8,Basico,Desporto,Web,1
+GS-0787,11,36.72,6,6,Basico,Filmes,Mobile,1
+GS-0788,39,32.1,6,0,Standard,Desporto,Web,0
+GS-0789,38,48.0,7,2,Standard,Filmes,Web,0
+GS-0790,34,49.95,5,3,Basico,Documentarios,Mobile,0
+GS-0791,38,48.48,7,3,Premium,Desporto,Web,0
+GS-0792,34,43.8,1,4,Standard,Series,Web,0
+GS-0793,18,41.29,1,2,Premium,Series,Web,0
+GS-0794,30,55.8,3,2,Standard,Desporto,Mobile,0
+GS-0795,15,45.47,3,0,Standard,Documentarios,Web,0
+GS-0796,27,44.28,5,6,Premium,Documentarios,Smart TV,1
+GS-0797,34,30.67,3,9,Standard,Series,Smart TV,1
+GS-0798,38,40.14,1,0,Standard,Desporto,Mobile,0
+GS-0799,33,41.31,6,1,Premium,Documentarios,Smart TV,0
+GS-0800,24,41.86,7,3,Standard,Series,Mobile,0
+GS-0801,15,47.31,2,3,Standard,Filmes,Smart TV,0
+GS-0802,30,45.91,4,4,Standard,Desporto,Smart TV,0
+GS-0803,42,48.14,2,1,Premium,Filmes,Smart TV,0
+GS-0804,17,52.85,2,3,Basico,Filmes,Mobile,0
+GS-0805,5,54.29,1,0,Premium,Documentarios,Mobile,0
+GS-0806,29,51.44,2,1,Basico,Documentarios,Web,0
+GS-0807,4,58.57,7,0,Standard,Documentarios,Mobile,0
+GS-0808,10,30.45,5,9,Basico,Desporto,Smart TV,1
+GS-0809,17,35.77,0,9,Premium,Filmes,Smart TV,1
+GS-0810,10,30.13,3,3,Premium,Desporto,Mobile,1
+GS-0811,17,49.32,0,3,Standard,Documentarios,Mobile,0
+GS-0812,20,56.84,6,6,Basico,Filmes,Mobile,1
+GS-0813,24,37.2,7,9,Standard,Desporto,Web,1
+GS-0814,5,57.71,7,8,Standard,Desporto,Smart TV,1
+GS-0815,34,31.71,4,8,Premium,Series,Web,1
+GS-0816,6,57.93,7,4,Basico,Desporto,Web,0
+GS-0817,2,40.45,3,9,Basico,Documentarios,Smart TV,1
+GS-0818,13,32.94,7,0,Basico,Desporto,Smart TV,0
+GS-0819,43,44.48,2,0,Basico,Filmes,Mobile,0
+GS-0820,43,37.6,4,5,Standard,Desporto,Mobile,1
+GS-0821,11,38.45,3,1,Standard,Series,Web,0
+GS-0822,47,39.12,5,7,Premium,Filmes,Mobile,1
+GS-0823,23,53.99,5,8,Standard,Filmes,Mobile,1
+GS-0824,16,46.07,5,3,Standard,Series,Smart TV,0
+GS-0825,31,39.24,5,4,Premium,Documentarios,Smart TV,0
+GS-0826,11,48.21,2,7,Premium,Filmes,Mobile,1
+GS-0827,16,51.38,7,2,Premium,Documentarios,Smart TV,0
+GS-0828,8,38.08,0,4,Standard,Filmes,Mobile,1
+GS-0829,4,42.31,3,2,Standard,Filmes,Smart TV,0
+GS-0830,40,33.56,2,9,Premium,Documentarios,Smart TV,1
+GS-0831,4,35.33,5,2,Premium,Filmes,Smart TV,0
+GS-0832,25,50.33,6,2,Premium,Documentarios,Smart TV,0
+GS-0833,3,35.34,7,6,Standard,Series,Mobile,1
+GS-0834,32,45.65,0,6,Standard,Documentarios,Web,1
+GS-0835,3,51.17,6,6,Basico,Series,Smart TV,1
+GS-0836,27,33.11,4,9,Standard,Filmes,Mobile,1
+GS-0837,29,46.92,6,7,Standard,Documentarios,Mobile,1
+GS-0838,32,37.6,4,4,Standard,Filmes,Smart TV,0
+GS-0839,19,58.79,4,4,Premium,Documentarios,Web,0
+GS-0840,21,44.41,5,3,Standard,Series,Smart TV,0
+GS-0841,5,54.08,4,6,Premium,Series,Mobile,1
+GS-0842,18,46.41,1,9,Basico,Documentarios,Web,1
+GS-0843,28,31.2,3,3,Basico,Series,Mobile,0
+GS-0844,42,48.89,3,1,Premium,Filmes,Smart TV,0
+GS-0845,22,58.44,5,3,Premium,Filmes,Web,0
+GS-0846,21,47.95,1,7,Premium,Desporto,Mobile,1
+GS-0847,6,54.48,6,8,Standard,Series,Mobile,1
+GS-0848,1,56.43,2,2,Basico,Filmes,Mobile,0
+GS-0849,5,36.74,6,6,Premium,Documentarios,Smart TV,1
+GS-0850,41,36.26,7,8,Standard,Series,Web,1
+GS-0851,12,48.23,2,3,Basico,Filmes,Smart TV,0
+GS-0852,26,42.23,4,9,Standard,Series,Smart TV,1
+GS-0853,46,55.1,0,2,Basico,Documentarios,Smart TV,0
+GS-0854,34,56.9,2,4,Standard,Filmes,Web,0
+GS-0855,14,40.5,0,0,Basico,Desporto,Smart TV,0
+GS-0856,26,37.01,3,2,Basico,Desporto,Smart TV,0
+GS-0857,45,53.32,0,7,Standard,Series,Smart TV,1
+GS-0858,27,38.14,3,7,Premium,Documentarios,Smart TV,1
+GS-0859,9,54.58,1,3,Basico,Filmes,Mobile,0
+GS-0860,26,42.61,1,1,Premium,Documentarios,Smart TV,0
+GS-0861,47,49.93,5,7,Standard,Filmes,Mobile,1
+GS-0862,22,32.77,5,7,Premium,Series,Smart TV,1
+GS-0863,47,48.62,4,9,Premium,Filmes,Web,1
+GS-0864,30,43.45,2,3,Premium,Documentarios,Mobile,0
+GS-0865,43,47.5,4,2,Premium,Documentarios,Mobile,0
+GS-0866,17,34.94,3,1,Premium,Series,Mobile,0
+GS-0867,26,52.01,4,8,Basico,Documentarios,Mobile,1
+GS-0868,36,55.78,0,0,Basico,Filmes,Web,0
+GS-0869,1,36.4,3,6,Basico,Series,Smart TV,1
+GS-0870,8,32.77,5,4,Standard,Filmes,Mobile,1
+GS-0871,35,30.61,1,7,Premium,Documentarios,Web,1
+GS-0872,15,49.16,5,3,Basico,Series,Mobile,0
+GS-0873,47,48.11,2,6,Standard,Filmes,Smart TV,1
+GS-0874,22,46.3,3,4,Basico,Documentarios,Mobile,0
+GS-0875,14,36.86,3,4,Basico,Documentarios,Web,1
+GS-0876,26,41.63,0,8,Premium,Desporto,Smart TV,1
+GS-0877,28,47.73,2,8,Standard,Documentarios,Web,1
+GS-0878,23,44.8,1,8,Premium,Filmes,Smart TV,1
+GS-0879,14,59.53,6,5,Premium,Series,Smart TV,0
+GS-0880,24,33.99,3,5,Basico,Desporto,Smart TV,1
+GS-0881,2,50.75,3,4,Premium,Documentarios,Mobile,1
+GS-0882,45,42.03,0,8,Standard,Documentarios,Web,1
+GS-0883,26,42.75,4,9,Premium,Documentarios,Web,1
+GS-0884,14,51.43,7,7,Premium,Filmes,Web,1
+GS-0885,7,50.67,1,6,Premium,Desporto,Smart TV,1
+GS-0886,3,59.64,5,6,Basico,Filmes,Mobile,1
+GS-0887,47,33.75,2,5,Standard,Desporto,Smart TV,1
+GS-0888,23,33.02,3,4,Basico,Series,Web,1
+GS-0889,46,51.63,3,3,Basico,Filmes,Mobile,0
+GS-0890,43,47.25,5,2,Basico,Filmes,Mobile,0
+GS-0891,47,38.12,1,2,Basico,Series,Mobile,0
+GS-0892,45,32.28,7,5,Basico,Desporto,Web,0
+GS-0893,18,32.47,4,3,Standard,Documentarios,Mobile,0
+GS-0894,38,56.73,3,5,Premium,Series,Mobile,0
+GS-0895,35,35.66,7,2,Basico,Documentarios,Smart TV,0
+GS-0896,15,39.6,1,3,Basico,Documentarios,Smart TV,0
+GS-0897,25,36.7,5,8,Standard,Series,Mobile,1
+GS-0898,37,40.55,0,4,Standard,Desporto,Mobile,1
+GS-0899,28,31.98,4,6,Premium,Documentarios,Smart TV,1
+GS-0900,10,45.47,2,9,Standard,Series,Smart TV,1
+GS-0901,39,31.93,3,1,Premium,Filmes,Smart TV,0
+GS-0902,17,53.91,1,4,Basico,Filmes,Web,0
+GS-0903,39,36.91,0,8,Basico,Filmes,Web,1
+GS-0904,22,46.1,2,2,Premium,Series,Smart TV,0
+GS-0905,26,56.3,6,8,Standard,Filmes,Mobile,1
+GS-0906,44,49.43,1,5,Premium,Documentarios,Smart TV,0
+GS-0907,25,45.89,1,3,Standard,Filmes,Web,0
+GS-0908,17,39.63,2,6,Basico,Filmes,Mobile,1
+GS-0909,13,39.89,0,7,Standard,Documentarios,Web,1
+GS-0910,20,49.98,6,5,Premium,Filmes,Mobile,0
+GS-0911,25,59.72,7,4,Premium,Documentarios,Web,0
+GS-0912,4,49.76,7,5,Basico,Filmes,Mobile,1
+GS-0913,10,46.63,5,4,Standard,Documentarios,Mobile,0
+GS-0914,3,51.82,0,7,Standard,Filmes,Mobile,1
+GS-0915,41,43.86,4,0,Standard,Documentarios,Mobile,0
+GS-0916,45,31.7,3,6,Basico,Series,Web,1
+GS-0917,18,46.77,2,9,Standard,Documentarios,Web,1
+GS-0918,47,58.63,5,9,Premium,Filmes,Mobile,1
+GS-0919,36,35.16,6,1,Standard,Filmes,Mobile,0
+GS-0920,47,50.6,2,8,Basico,Desporto,Web,1
+GS-0921,22,35.93,2,0,Standard,Documentarios,Mobile,0
+GS-0922,34,45.97,0,9,Standard,Series,Mobile,1
+GS-0923,47,32.8,3,5,Premium,Documentarios,Mobile,1
+GS-0924,8,43.41,4,8,Standard,Documentarios,Smart TV,1
+GS-0925,40,52.58,7,0,Premium,Series,Mobile,0
+GS-0926,44,40.33,1,3,Premium,Documentarios,Smart TV,0
+GS-0927,19,49.85,1,3,Basico,Series,Mobile,0
+GS-0928,42,53.76,2,8,Premium,Series,Web,1
+GS-0929,41,57.72,7,4,Premium,Documentarios,Smart TV,0
+GS-0930,37,36.94,7,4,Basico,Documentarios,Smart TV,0
+GS-0931,6,41.88,3,5,Premium,Filmes,Mobile,1
+GS-0932,26,34.47,6,0,Basico,Filmes,Mobile,0
+GS-0933,34,59.67,6,0,Standard,Desporto,Smart TV,0
+GS-0934,45,57.71,5,8,Basico,Desporto,Web,1
+GS-0935,6,46.1,0,2,Premium,Documentarios,Web,0
+GS-0936,37,55.16,3,3,Basico,Series,Mobile,0
+GS-0937,33,45.53,3,0,Premium,Desporto,Web,0
+GS-0938,22,48.61,0,8,Standard,Documentarios,Web,1
+GS-0939,21,32.57,7,7,Basico,Desporto,Mobile,1
+GS-0940,6,52.56,6,1,Standard,Series,Web,0
+GS-0941,6,33.73,6,7,Premium,Documentarios,Mobile,1
+GS-0942,4,54.68,7,6,Premium,Series,Smart TV,1
+GS-0943,30,53.36,6,5,Standard,Documentarios,Mobile,0
+GS-0944,11,51.16,2,0,Basico,Desporto,Smart TV,0
+GS-0945,30,30.98,3,6,Basico,Filmes,Smart TV,1
+GS-0946,31,38.99,1,9,Premium,Desporto,Web,1
+GS-0947,24,37.79,0,6,Standard,Desporto,Web,1
+GS-0948,9,40.7,6,8,Standard,Filmes,Web,1
+GS-0949,3,32.53,5,0,Basico,Filmes,Mobile,0
+GS-0950,31,58.01,6,1,Basico,Documentarios,Web,0
+GS-0951,40,46.51,6,8,Basico,Documentarios,Smart TV,1
+GS-0952,37,39.07,4,8,Standard,Series,Web,1
+GS-0953,36,41.81,2,5,Basico,Series,Web,1
+GS-0954,24,43.32,0,5,Basico,Desporto,Mobile,1
+GS-0955,31,47.92,4,3,Premium,Filmes,Mobile,0
+GS-0956,6,45.37,4,3,Basico,Series,Smart TV,0
+GS-0957,2,57.48,5,4,Basico,Desporto,Mobile,0
+GS-0958,20,44.81,3,2,Standard,Filmes,Web,0
+GS-0959,28,59.66,5,0,Standard,Documentarios,Mobile,0
+GS-0960,11,55.44,3,0,Premium,Desporto,Smart TV,0
+GS-0961,4,36.16,3,6,Basico,Documentarios,Web,1
+GS-0962,15,57.82,0,0,Premium,Series,Smart TV,0
+GS-0963,6,33.39,6,0,Standard,Series,Mobile,0
+GS-0964,30,54.42,0,2,Premium,Filmes,Mobile,0
+GS-0965,38,41.32,2,9,Standard,Desporto,Smart TV,1
+GS-0966,2,56.24,3,3,Premium,Documentarios,Web,0
+GS-0967,15,55.94,4,3,Premium,Filmes,Mobile,0
+GS-0968,11,54.08,6,1,Basico,Series,Mobile,0
+GS-0969,8,53.6,1,0,Premium,Series,Web,0
+GS-0970,26,39.04,2,2,Basico,Desporto,Mobile,0
+GS-0971,45,32.33,0,3,Basico,Documentarios,Smart TV,0
+GS-0972,44,41.99,5,2,Basico,Desporto,Mobile,0
+GS-0973,5,35.11,2,7,Basico,Documentarios,Mobile,1
+GS-0974,6,50.75,2,9,Premium,Documentarios,Web,1
+GS-0975,26,40.28,6,0,Standard,Desporto,Smart TV,0
+GS-0976,4,59.17,2,1,Standard,Filmes,Web,0
+GS-0977,19,49.13,2,6,Standard,Desporto,Mobile,1
+GS-0978,20,54.57,1,3,Premium,Desporto,Mobile,0
+GS-0979,33,33.88,7,7,Basico,Series,Web,1
+GS-0980,20,55.76,5,2,Standard,Series,Web,0
+GS-0981,12,57.58,5,5,Premium,Desporto,Web,0
+GS-0982,47,44.51,5,8,Basico,Desporto,Smart TV,1
+GS-0983,1,48.09,3,0,Standard,Series,Mobile,0
+GS-0984,26,52.84,4,0,Basico,Documentarios,Web,0
+GS-0985,14,35.15,7,7,Standard,Desporto,Mobile,1
+GS-0986,38,44.98,5,2,Standard,Filmes,Smart TV,0
+GS-0987,37,41.86,2,4,Standard,Filmes,Smart TV,0
+GS-0988,11,34.29,2,0,Basico,Filmes,Smart TV,0
+GS-0989,36,40.93,5,4,Premium,Desporto,Smart TV,0
+GS-0990,13,31.95,6,5,Basico,Documentarios,Mobile,1
+GS-0991,43,30.67,5,7,Standard,Documentarios,Smart TV,1
+GS-0992,3,33.95,2,2,Basico,Series,Smart TV,0
+GS-0993,33,58.79,3,2,Premium,Desporto,Web,0
+GS-0994,6,46.39,0,9,Basico,Documentarios,Smart TV,1
+GS-0995,10,58.87,0,8,Premium,Desporto,Web,1
+GS-0996,5,42.87,7,3,Premium,Series,Smart TV,0
+GS-0997,23,39.25,7,3,Basico,Series,Smart TV,0
+GS-0998,10,45.08,5,6,Standard,Series,Web,1
+GS-0999,44,43.09,1,1,Premium,Filmes,Smart TV,0
+GS-1000,2,33.07,5,7,Basico,Desporto,Mobile,1

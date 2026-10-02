@@ -1,0 +1,8 @@
+              precision    recall  f1-score   support
+
+   Permanece     0.9730    0.7826    0.8675        92
+     Cancela     0.8413    0.9815    0.9060       108
+
+    accuracy                         0.8900       200
+   macro avg     0.9071    0.8820    0.8867       200
+weighted avg     0.9019    0.8900    0.8883       200

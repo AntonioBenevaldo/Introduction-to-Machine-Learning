@@ -1,0 +1,116 @@
+{
+  "origem": "Planilha oficial globalstream_data.xlsx do enunciado; nenhum dado foi gerado ou alterado.",
+  "arquivo_entrada": "globalstream_data.xlsx",
+  "aba": "Sheet1",
+  "sha256_entrada": "cc5b83417dbc4a2a50363fa44f4eff4841b35d693cb608e94366a6ec914ced90",
+  "semente": 42,
+  "clientes": 1000,
+  "prevalencia": 0.542,
+  "prevalencia_teste": 0.54,
+  "particoes": {
+    "treino": 600,
+    "validacao": 200,
+    "teste": 200
+  },
+  "modelo_escolhido": "Regressao Logistica",
+  "limiar": 0.25,
+  "metricas_teste": {
+    "acuracia": 0.89,
+    "precisao": 0.8412698412698413,
+    "recall": 0.9814814814814815,
+    "f1": 0.905982905982906,
+    "roc_auc": 0.9837962962962963,
+    "average_precision": 0.9855981309122366,
+    "tn": 72,
+    "fp": 20,
+    "fn": 2,
+    "tp": 106,
+    "custo_ilustrativo": 600,
+    "limiar": 0.25
+  },
+  "auc_ic95_bootstrap": [
+    0.9677762364437333,
+    0.994553857523448
+  ],
+  "validacao_limiar_padrao": {
+    "acuracia": 0.915,
+    "precisao": 0.8956521739130435,
+    "recall": 0.9537037037037037,
+    "f1": 0.9237668161434978,
+    "roc_auc": 0.9794685990338163,
+    "average_precision": 0.9840943717301487,
+    "tn": 80,
+    "fp": 12,
+    "fn": 5,
+    "tp": 103,
+    "custo_ilustrativo": 740,
+    "limiar": 0.5
+  },
+  "validacao_limiar_ajustado": {
+    "acuracia": 0.855,
+    "precisao": 0.7883211678832117,
+    "recall": 1.0,
+    "f1": 0.8816326530612245,
+    "roc_auc": 0.9794685990338163,
+    "average_precision": 0.9840943717301487,
+    "tn": 63,
+    "fp": 29,
+    "fn": 0,
+    "tp": 108,
+    "custo_ilustrativo": 580,
+    "limiar": 0.25
+  },
+  "clusters_k": 2,
+  "silhouette_treino": 0.1240456012623954,
+  "pca_variancia_total": 0.35328739239591644,
+  "taxa_churn_por_grupo": {
+    "0": 0.20335820895522388,
+    "1": 0.9331896551724138
+  },
+  "custo_teste_todos_contatados": 1840,
+  "custo_teste_ninguem_contatado": 10800,
+  "top20_teste": {
+    "contatos": 40,
+    "verdadeiros_positivos": 40,
+    "precisao": 1.0,
+    "recall": 0.37037037037037035
+  },
+  "segmentacao_vs_modelo": {
+    "grupo_alto_risco": 1,
+    "segmentacao": {
+      "contatos": 98,
+      "tp": 92,
+      "fp": 6,
+      "fn": 16,
+      "precisao": 0.9387755102040817,
+      "recall": 0.8518518518518519,
+      "custo": 1720
+    },
+    "modelo": {
+      "contatos": 98,
+      "tp": 94,
+      "fp": 4,
+      "fn": 14,
+      "precisao": 0.9591836734693877,
+      "recall": 0.8703703703703703,
+      "custo": 1480
+    }
+  },
+  "sem_tickets_cv": {
+    "ap_media": 0.7046487592333259,
+    "auc_media": 0.6762938789605457
+  },
+  "limitacoes": [
+    "Sem datas para validação temporal ou identificação do mês do churn.",
+    "Sem definição da janela dos tickets e da disponibilidade dos atributos antes do churn.",
+    "Meses_Contrato pode indicar duração contratual ou tempo de relacionamento; significado não confirmado.",
+    "Ausência de metadados sobre a origem da planilha; não se afirma que são clientes reais."
+  ],
+  "ambiente": {
+    "python": "3.14.0",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "scikit-learn": "1.9.1",
+    "matplotlib": "3.11.2"
+  }
+}

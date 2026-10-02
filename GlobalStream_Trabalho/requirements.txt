@@ -1,0 +1,8 @@
+# Bibliotecas do projeto (versoes minimas).
+# O pip escolhe automaticamente as versoes compativeis com o seu Python (3.9 ou mais novo, inclusive 3.14).
+numpy>=1.23
+pandas>=1.5
+scipy>=1.9
+scikit-learn>=1.4
+matplotlib>=3.6
+openpyxl>=3.0.10

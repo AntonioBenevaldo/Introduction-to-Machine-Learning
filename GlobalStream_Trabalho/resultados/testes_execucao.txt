@@ -1,0 +1,19 @@
+Python 3.14.7 (ambiente .venv314 criado por preparar_ambiente.py)
+
+test_atributos_sem_id_ou_alvo (__main__.TestesGlobalStream.test_atributos_sem_id_ou_alvo) ... ok
+test_clipping_aprende_apenas_fit (__main__.TestesGlobalStream.test_clipping_aprende_apenas_fit) ... ok
+test_dimensoes_e_auditoria (__main__.TestesGlobalStream.test_dimensoes_e_auditoria) ... ok
+test_evidencias_e_hash_da_planilha (__main__.TestesGlobalStream.test_evidencias_e_hash_da_planilha) ... ok
+test_ids_nao_compartilhados (__main__.TestesGlobalStream.test_ids_nao_compartilhados) ... ok
+test_imputacao_prevista_e_categoria_nova (__main__.TestesGlobalStream.test_imputacao_prevista_e_categoria_nova) ... ok
+test_limiar_na_tabela_fornecida (__main__.TestesGlobalStream.test_limiar_na_tabela_fornecida) ... ok
+test_metricas_em_exemplo_conhecido (__main__.TestesGlobalStream.test_metricas_em_exemplo_conhecido) ... ok
+test_rejeita_alvo_ausente (__main__.TestesGlobalStream.test_rejeita_alvo_ausente) ... ok
+test_rejeita_coluna_faltante (__main__.TestesGlobalStream.test_rejeita_coluna_faltante) ... ok
+test_rejeita_id_conflitante (__main__.TestesGlobalStream.test_rejeita_id_conflitante) ... ok
+test_valor_invalido_vira_ausente (__main__.TestesGlobalStream.test_valor_invalido_vira_ausente) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 1.237s
+
+OK

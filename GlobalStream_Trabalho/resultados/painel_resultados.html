@@ -1,0 +1,187 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>GlobalStream | Resultados</title><style>
+    *{box-sizing:border-box}body{margin:0;background:#f1f6f4;color:#173c34;font:16px/1.6 system-ui,sans-serif}main{max-width:1180px;margin:auto;padding:36px 22px}h1{font-size:38px;line-height:1.2}h2{font-size:24px}.nota{background:#e1efe7;border-left:5px solid #127565;padding:16px}.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(165px,1fr));gap:14px;margin:24px 0}article,section{background:white;padding:22px;border-radius:12px;margin-bottom:18px}small{display:block}strong{display:block;font-size:24px;line-height:1.3;margin-top:8px}img{max-width:100%;height:auto}.scroll{overflow:auto}table{width:100%;border-collapse:collapse;font-size:14px}th,td{padding:10px;text-align:left;border-bottom:1px solid #dce8e1}pre{white-space:pre-wrap;font:14px/1.55 ui-monospace,Consolas,monospace}a{color:#127565}@media print{section{break-inside:avoid}}
+    </style></head><body><main><p>INTRODUCTION TO MACHINE LEARNING · PARTE PRÁTICA</p><h1>GlobalStream<br>Retenção e segmentação</h1>
+    <p class="nota">Análise de <b>globalstream_data.xlsx</b> (aba Sheet1), base oficial do enunciado. A planilha tem uma linha por cliente e não tem datas: a avaliação classifica o Churn registrado e não comprova, sozinha, previsão para o próximo mês.</p>
+    <div class="cards"><article><small>Clientes</small><strong>1000</strong></article><article><small>Modelo</small><strong>Regressao Logistica</strong></article><article><small>AUC no teste</small><strong>0.984</strong></article><article><small>Precisão</small><strong>84.1%</strong></article><article><small>Recall</small><strong>98.1%</strong></article><article><small>Limiar</small><strong>0.25</strong></article></div><section><h2>Desenho do experimento</h2><p>Treino: 600; validação: 200; teste: 200. Seis classificadores comparados por Average Precision em 5 folds do treino. Limiar escolhido na validação. Imputação, limites de outliers e encoding aprendidos no treino. ID e Churn excluídos dos atributos.</p>
+    <p>Custo ilustrativo: 20 × FP + 100 × FN (não representa ROI). No teste, contatar todos custa 1840 unidades; não contatar ninguém custa 10800; a política ajustada custa 600.</p></section>
+    <section><h2>Comparação no teste</h2><div class="scroll"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>modelo</th>
+      <th>precisao</th>
+      <th>recall</th>
+      <th>f1</th>
+      <th>roc_auc</th>
+      <th>average_precision</th>
+      <th>custo_ilustrativo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Dummy</td>
+      <td>0.540</td>
+      <td>1.000</td>
+      <td>0.701</td>
+      <td>0.500</td>
+      <td>0.540</td>
+      <td>1840</td>
+    </tr>
+    <tr>
+      <td>Regressao Logistica</td>
+      <td>0.936</td>
+      <td>0.954</td>
+      <td>0.945</td>
+      <td>0.984</td>
+      <td>0.986</td>
+      <td>640</td>
+    </tr>
+    <tr>
+      <td>Random Forest</td>
+      <td>0.920</td>
+      <td>0.963</td>
+      <td>0.941</td>
+      <td>0.976</td>
+      <td>0.976</td>
+      <td>580</td>
+    </tr>
+    <tr>
+      <td>Gradient Boosting</td>
+      <td>0.937</td>
+      <td>0.963</td>
+      <td>0.950</td>
+      <td>0.983</td>
+      <td>0.983</td>
+      <td>540</td>
+    </tr>
+    <tr>
+      <td>SVM (RBF)</td>
+      <td>0.917</td>
+      <td>0.926</td>
+      <td>0.922</td>
+      <td>0.979</td>
+      <td>0.981</td>
+      <td>980</td>
+    </tr>
+    <tr>
+      <td>k-NN</td>
+      <td>0.927</td>
+      <td>0.944</td>
+      <td>0.936</td>
+      <td>0.979</td>
+      <td>0.980</td>
+      <td>760</td>
+    </tr>
+    <tr>
+      <td>Regressao Logistica (limiar ajustado)</td>
+      <td>0.841</td>
+      <td>0.981</td>
+      <td>0.906</td>
+      <td>0.984</td>
+      <td>0.986</td>
+      <td>600</td>
+    </tr>
+  </tbody>
+</table></div><p>Teste consultado após congelar modelo e limiar. AP = Average Precision. A AUC não muda com o limiar.</p></section>
+    <section><h2>Personas</h2><div class="scroll"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>persona</th>
+      <th>clientes_total</th>
+      <th>Frequencia_Acesso_Semanal</th>
+      <th>Tickets_Suporte</th>
+      <th>Plano_predominante</th>
+      <th>taxa_churn_total</th>
+      <th>acao_proposta</th>
+    </tr>
+    <tr>
+      <th>cluster</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Acesso mais frequente, menos tickets</td>
+      <td>536</td>
+      <td>3.74</td>
+      <td>2.14</td>
+      <td>Premium</td>
+      <td>0.20</td>
+      <td>Testar recomendações de conteúdo e adequação da comunicação ao uso.</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Acesso menos frequente, mais tickets</td>
+      <td>464</td>
+      <td>3.12</td>
+      <td>6.94</td>
+      <td>Standard</td>
+      <td>0.93</td>
+      <td>Investigar experiência de suporte e testar recuperação do atendimento.</td>
+    </tr>
+  </tbody>
+</table></div><p>Grupos formados sem usar o Churn; a taxa de churn de cada grupo foi calculada depois. Silhouette: 0.124; variância retida no PCA: 35.3%.</p></section><section><img src="01_exploracao.png" alt="01_exploracao"></section><section><img src="02_suporte_outliers.png" alt="02_suporte_outliers"></section><section><img src="02b_churn_por_variavel.png" alt="02b_churn_por_variavel"></section><section><img src="02c_categorias_correlacao.png" alt="02c_categorias_correlacao"></section><section><img src="03_clusters_pca.png" alt="03_clusters_pca"></section><section><img src="04_avaliacao.png" alt="04_avaliacao"></section><section><img src="05_comparacao_limiar.png" alt="05_comparacao_limiar"></section><section><img src="06_importancia.png" alt="06_importancia"></section>
+    <section><h2>Análise crítica</h2><pre>5.1 DISCUSSÃO CRÍTICA SOBRE DESEMPENHO E UTILIDADE PRÁTICA
+- O modelo escolhido (Regressao Logistica) ordena muito bem quem cancela: AUC de 0,984 no
+  teste (IC 95%: 0,968 a 0,995), contra 0,500 do Dummy, que não usa os atributos.
+- Precisão x recall: no limiar 0,50, o modelo teve precisão de 93,6% e recall de 95,4%
+  (5 cancelamentos ignorados). Com o limiar de custo (0,25), o recall subiu para
+  98,1% (2 ignorados) e a precisão caiu para 84,1% (20 descontos
+  desnecessários). Como ignorar quem vai sair custa 5 vezes mais, o limiar deve favorecer o recall.
+- Utilidade: no teste, contatar todos custa 1840 unidades; não contatar ninguém, 10800;
+  o modelo no limiar 0,50, 640; e no limiar ajustado, 600, com
+  126 contatos em vez de 200. Se a equipe só puder abordar 20% da base, os
+  40 clientes de maior risco tiveram precisão de 100,0% (recall de 37,0%).
+- Cautela: o teste tem só 200 clientes; os resultados não garantem o mesmo desempenho em
+  outro período nem medem o efeito de uma campanha.
+
+5.2 COMPARAÇÃO ENTRE ABORDAGENS E RESULTADOS
+- Classificadores (Average Precision média na validação cruzada):
+  Regressao Logistica 0,981 | SVM (RBF) 0,977 | Gradient Boosting 0,975 | Random Forest 0,967 | k-NN 0,964 | Dummy 0,543.
+  As diferenças entre os modelos são pequenas diante da variação entre folds. Entre os
+  algoritmos sugeridos no enunciado, o melhor foi o SVM (RBF), com 0,977;
+  a Regressão Logística ficou à frente por pouco e foi mantida por ser mais simples e
+  interpretável.
+- Overfitting (AP de treino menos AP da validação cruzada):
+  Regressao Logistica 0,004, Random Forest 0,022, Gradient Boosting 0,011, SVM (RBF) 0,014, k-NN 0,009.
+  A maior diferença aparece em Random Forest, que memoriza mais o treino; a menor, em Regressao Logistica.
+- Segmentação x modelo, com o mesmo número de contatos no teste (98):
+    contatar o grupo de maior churn (&quot;Acesso menos frequente, mais tickets&quot;): 92
+      cancelamentos captados, precisão 93,9%, recall 85,2%, custo 1720;
+    contatar os 98 clientes de maior probabilidade segundo o modelo: 94 captados,
+      precisão 95,9%, recall 87,0%, custo 1480.
+  O modelo escolhe melhor QUEM abordar; a persona ajuda a decidir COMO abordar. As duas
+  abordagens são complementares.
+- Dependência de uma variável: sem Tickets_Suporte, a AP da validação cruzada cai de
+  0,981 para 0,705 (AUC de 0,676).
+  Quase todo o poder preditivo vem dos tickets.
+
+5.3 LIMITAÇÕES DO PIPELINE
+- Sem datas, não há como confirmar que os tickets foram registrados ANTES do cancelamento. Se
+  parte deles for aberta para cancelar, o modelo estaria &quot;vendo a resposta&quot; (vazamento) e o
+  desempenho real seria bem menor (ver o resultado sem Tickets_Suporte acima).
+- Sem histórico mensal nem tempo de tela: a validação é entre clientes, não entre meses, e a
+  frequência semanal é só uma aproximação do consumo.
+- 220 clientes têm mais de 36 meses de contrato numa empresa de 3 anos; o significado
+  da coluna precisa ser confirmado.
+- Segmentação fraca (silhouette de 0,124, k = 2): os grupos são exploratórios, não tipos rígidos.
+- Os custos de 20 e 100 são hipóteses didáticas, não custos reais nem retorno financeiro.
+- Base pequena (1.000 clientes; teste com 200): há incerteza amostral nas métricas.
+
+5.4 PROPOSTAS DE MELHORIA FUTURA
+- Obter datas de tickets e cancelamentos, o motivo de cada chamado e o tempo de tela real, e
+  montar janelas de observação anteriores ao churn.
+- Validação temporal: treinar com meses passados e testar nos meses seguintes.
+- Calibrar as probabilidades e escolher o limiar com custos reais e a capacidade da equipe.
+- Testar a segmentação só com variáveis de comportamento (ou K-Prototypes, para dados mistos)
+  e avaliar a estabilidade dos grupos.
+- Piloto controlado (teste A/B) para medir o efeito real das ofertas; modelos de uplift.
+- Monitorar o desempenho, as mudanças nos dados e as diferenças de erro entre grupos de clientes.</pre>
+    <p><a href="metricas_teste.csv">Métricas CSV</a> · <a href="resumo.json">Resumo</a> · <a href="auditoria_dados.json">Auditoria</a> · <a href="saida_execucao.txt">Saída completa</a></p></section></main></body></html>

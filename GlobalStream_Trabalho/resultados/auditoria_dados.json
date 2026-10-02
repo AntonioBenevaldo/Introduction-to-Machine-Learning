@@ -1,0 +1,50 @@
+{
+  "linhas_brutas": 1000,
+  "colunas": [
+    "ID_Cliente",
+    "Meses_Contrato",
+    "Valor_Mensal",
+    "Frequencia_Acesso_Semanal",
+    "Tickets_Suporte",
+    "Plano",
+    "Genero_Favorito",
+    "Dispositivo_Principal",
+    "Churn"
+  ],
+  "ausentes_brutos": {
+    "ID_Cliente": 0,
+    "Meses_Contrato": 0,
+    "Valor_Mensal": 0,
+    "Frequencia_Acesso_Semanal": 0,
+    "Tickets_Suporte": 0,
+    "Plano": 0,
+    "Genero_Favorito": 0,
+    "Dispositivo_Principal": 0,
+    "Churn": 0
+  },
+  "duplicatas_exatas_removidas": 0,
+  "invalidos_dominio": {
+    "Meses_Contrato": 0,
+    "Valor_Mensal": 0,
+    "Frequencia_Acesso_Semanal": 0,
+    "Tickets_Suporte": 0
+  },
+  "clientes": 1000,
+  "ausentes_apos_regras": {
+    "ID_Cliente": 0,
+    "Meses_Contrato": 0,
+    "Valor_Mensal": 0,
+    "Frequencia_Acesso_Semanal": 0,
+    "Tickets_Suporte": 0,
+    "Plano": 0,
+    "Genero_Favorito": 0,
+    "Dispositivo_Principal": 0,
+    "Churn": 0
+  },
+  "contratos_acima_36": 220,
+  "alvo_contagem": {
+    "0": 458,
+    "1": 542
+  },
+  "limitacao_temporal": "Sem datas, mês de referência ou horizonte do alvo; avaliação transversal."
+}

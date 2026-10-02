@@ -1,0 +1,160 @@
+GlobalStream - Retenção e segmentação de clientes
+Python 3.14.0 | pandas 3.0.6 | scikit-learn 1.9.1 | numpy 2.5.3 | matplotlib 3.11.2
+Planilha lida: 1000 clientes | partições: treino 600, validação 200, teste 200
+
+==============================================================================
+1. EXPLORAÇÃO E LIMPEZA DOS DADOS
+==============================================================================
+Linhas lidas: 1000 | duplicatas removidas: 0 | valores fora do domínio: 0 | ausentes: 0
+Ausentes: a base não tem nenhum, mas o pipeline imputa mediana (numéricas) e moda (categóricas)
+para estar preparado para dados novos. Encoding: One-Hot nas 3 variáveis categóricas.
+Clientes com Meses_Contrato > 36 (empresa tem 3 anos): 220 - registros mantidos; o significado da coluna precisa ser confirmado.
+Treino: 600 clientes | taxa de churn 54,3% (classes quase equilibradas).
+
+Outliers (regra IQR aprendida no treino):
+                           limite_inferior  limite_superior  valores_limitados_treino
+variavel                                                                             
+Meses_Contrato                      -20.62            68.38                         0
+Valor_Mensal                         14.83            74.98                         0
+Frequencia_Acesso_Semanal            -5.00            11.00                         0
+Tickets_Suporte                      -5.50            14.50                         0
+Nenhum valor ultrapassa os limites: todas as variáveis estão em faixas plausíveis.
+
+Taxa de churn por nível das variáveis numéricas (treino):
+  Tickets de suporte: 0: 0% | 1: 5% | 2: 16% | 3: 34% | 4: 47% | 5: 74% | 6: 91% | 7: 97% | 8: 100% | 9: 100%
+  Acessos por semana: 0: 79% | 1: 68% | 2: 59% | 3: 65% | 4: 49% | 5: 45% | 6: 39% | 7: 27%
+  Meses de contrato: 1-12: 63% | 13-24: 56% | 25-36: 46% | 37-47: 52%
+  Quintil de valor mensal: Q1: 53% | Q2: 57% | Q3: 57% | Q4: 57% | Q5: 47%
+
+Taxa de churn por categoria (treino) e teste qui-quadrado de independência:
+  Plano: Standard: 58% | Premium: 52% | Basico: 52%  (p = 0,410)
+  Genero_Favorito: Documentarios: 62% | Desporto: 55% | Filmes: 52% | Series: 47%  (p = 0,061)
+  Dispositivo_Principal: Web: 58% | Mobile: 55% | Smart TV: 50%  (p = 0,284)
+
+Correlação de cada variável numérica com o churn (treino): Meses_Contrato: -0,09 | Valor_Mensal: -0,05 | Frequencia_Acesso_Semanal: -0,31 | Tickets_Suporte: 0,76
+Leitura: tickets de suporte (forte, positiva) e frequência de acesso (moderada, negativa)
+concentram a relação com o churn; plano, gênero e dispositivo não diferem de forma significativa.
+
+==============================================================================
+2. SEGMENTAÇÃO DE CLIENTES (K-Means + PCA)
+==============================================================================
+   silhouette  inercia
+k                     
+2       0.124 3168.495
+3       0.116 2860.513
+4       0.114 2653.145
+5       0.119 2469.917
+6       0.110 2349.092
+k escolhido: 2 (silhouette 0,124). PCA com 2 componentes retem 35,3% da variância.
+
+Personas (médias no treino; churn calculado depois do agrupamento):
+  Grupo 0 - Acesso mais frequente, menos tickets: 536 clientes | 3,74 acessos/sem | 2,14 tickets | 26,2 meses | plano Premium | gênero Series | CHURN 20,3%
+      Ação: Testar recomendações de conteúdo e adequação da comunicação ao uso.
+  Grupo 1 - Acesso menos frequente, mais tickets: 464 clientes | 3,12 acessos/sem | 6,94 tickets | 21,2 meses | plano Standard | gênero Documentarios | CHURN 93,3%
+      Ação: Investigar experiência de suporte e testar recuperação do atendimento.
+Interpretação: os grupos se separam por atrito com o suporte e frequência de uso. O grupo
+com mais tickets cancela muito mais. Silhouette baixo = fronteiras difusas: personas exploratórias.
+
+==============================================================================
+3. PREDIÇÃO DE CHURN - comparação de classificadores (5 folds no treino)
+==============================================================================
+                     ap_treino  ap_media  ap_dp  auc_media  f1_media  gap_treino_cv
+modelo                                                                             
+Dummy                    0.543     0.543  0.004      0.500     0.704          0.000
+Regressao Logistica      0.985     0.981  0.011      0.977     0.920          0.004
+Random Forest            0.989     0.967  0.017      0.960     0.901          0.022
+Gradient Boosting        0.987     0.975  0.015      0.972     0.916          0.011
+SVM (RBF)                0.991     0.977  0.011      0.972     0.923          0.014
+k-NN                     0.974     0.964  0.017      0.959     0.901          0.009
+Modelo escolhido (maior Average Precision média na validação cruzada): Regressao Logistica
+Prevenção de overfitting: pipeline reajustado em cada fold, hiperparâmetros que limitam a
+complexidade, validação e teste separados, e comparação do desempenho de treino com o da CV.
+
+==============================================================================
+4. AVALIAÇÃO DO MODELO (teste com 200 clientes nunca vistos)
+==============================================================================
+Limiar de decisão escolhido na validação: 0,25 (custo = 20 x FP + 100 x FN; ignorar um cancelamento custa 5x mais).
+                                       acuracia  precisao  recall    f1  roc_auc   tp  fp  fn  tn  custo_ilustrativo
+modelo                                                                                                              
+Dummy                                     0.540     0.540   1.000 0.701    0.500  108  92   0   0               1840
+Regressao Logistica                       0.940     0.936   0.954 0.945    0.984  103   7   5  85                640
+Random Forest                             0.935     0.920   0.963 0.941    0.976  104   9   4  83                580
+Gradient Boosting                         0.945     0.937   0.963 0.950    0.983  104   7   4  85                540
+SVM (RBF)                                 0.915     0.917   0.926 0.922    0.979  100   9   8  83                980
+k-NN                                      0.930     0.927   0.944 0.936    0.979  102   8   6  84                760
+Regressao Logistica (limiar ajustado)     0.890     0.841   0.981 0.906    0.984  106  20   2  72                600
+
+Relatório de classificação - Regressao Logistica, limiar 0,25:
+              precision    recall  f1-score   support
+
+   Permanece     0.9730    0.7826    0.8675        92
+     Cancela     0.8413    0.9815    0.9060       108
+
+    accuracy                         0.8900       200
+   macro avg     0.9071    0.8820    0.8867       200
+weighted avg     0.9019    0.8900    0.8883       200
+
+Importância por permutação (queda da AP ao embaralhar a variável): Tickets_Suporte: 0,374 | Frequencia_Acesso_Semanal: 0,074 | Genero_Favorito: 0,001
+AUC no teste: 0,984 (IC 95% bootstrap: 0,968 a 0,995)
+
+==============================================================================
+5. ANÁLISE CRÍTICA
+==============================================================================
+5.1 DISCUSSÃO CRÍTICA SOBRE DESEMPENHO E UTILIDADE PRÁTICA
+- O modelo escolhido (Regressao Logistica) ordena muito bem quem cancela: AUC de 0,984 no
+  teste (IC 95%: 0,968 a 0,995), contra 0,500 do Dummy, que não usa os atributos.
+- Precisão x recall: no limiar 0,50, o modelo teve precisão de 93,6% e recall de 95,4%
+  (5 cancelamentos ignorados). Com o limiar de custo (0,25), o recall subiu para
+  98,1% (2 ignorados) e a precisão caiu para 84,1% (20 descontos
+  desnecessários). Como ignorar quem vai sair custa 5 vezes mais, o limiar deve favorecer o recall.
+- Utilidade: no teste, contatar todos custa 1840 unidades; não contatar ninguém, 10800;
+  o modelo no limiar 0,50, 640; e no limiar ajustado, 600, com
+  126 contatos em vez de 200. Se a equipe só puder abordar 20% da base, os
+  40 clientes de maior risco tiveram precisão de 100,0% (recall de 37,0%).
+- Cautela: o teste tem só 200 clientes; os resultados não garantem o mesmo desempenho em
+  outro período nem medem o efeito de uma campanha.
+
+5.2 COMPARAÇÃO ENTRE ABORDAGENS E RESULTADOS
+- Classificadores (Average Precision média na validação cruzada):
+  Regressao Logistica 0,981 | SVM (RBF) 0,977 | Gradient Boosting 0,975 | Random Forest 0,967 | k-NN 0,964 | Dummy 0,543.
+  As diferenças entre os modelos são pequenas diante da variação entre folds. Entre os
+  algoritmos sugeridos no enunciado, o melhor foi o SVM (RBF), com 0,977;
+  a Regressão Logística ficou à frente por pouco e foi mantida por ser mais simples e
+  interpretável.
+- Overfitting (AP de treino menos AP da validação cruzada):
+  Regressao Logistica 0,004, Random Forest 0,022, Gradient Boosting 0,011, SVM (RBF) 0,014, k-NN 0,009.
+  A maior diferença aparece em Random Forest, que memoriza mais o treino; a menor, em Regressao Logistica.
+- Segmentação x modelo, com o mesmo número de contatos no teste (98):
+    contatar o grupo de maior churn ("Acesso menos frequente, mais tickets"): 92
+      cancelamentos captados, precisão 93,9%, recall 85,2%, custo 1720;
+    contatar os 98 clientes de maior probabilidade segundo o modelo: 94 captados,
+      precisão 95,9%, recall 87,0%, custo 1480.
+  O modelo escolhe melhor QUEM abordar; a persona ajuda a decidir COMO abordar. As duas
+  abordagens são complementares.
+- Dependência de uma variável: sem Tickets_Suporte, a AP da validação cruzada cai de
+  0,981 para 0,705 (AUC de 0,676).
+  Quase todo o poder preditivo vem dos tickets.
+
+5.3 LIMITAÇÕES DO PIPELINE
+- Sem datas, não há como confirmar que os tickets foram registrados ANTES do cancelamento. Se
+  parte deles for aberta para cancelar, o modelo estaria "vendo a resposta" (vazamento) e o
+  desempenho real seria bem menor (ver o resultado sem Tickets_Suporte acima).
+- Sem histórico mensal nem tempo de tela: a validação é entre clientes, não entre meses, e a
+  frequência semanal é só uma aproximação do consumo.
+- 220 clientes têm mais de 36 meses de contrato numa empresa de 3 anos; o significado
+  da coluna precisa ser confirmado.
+- Segmentação fraca (silhouette de 0,124, k = 2): os grupos são exploratórios, não tipos rígidos.
+- Os custos de 20 e 100 são hipóteses didáticas, não custos reais nem retorno financeiro.
+- Base pequena (1.000 clientes; teste com 200): há incerteza amostral nas métricas.
+
+5.4 PROPOSTAS DE MELHORIA FUTURA
+- Obter datas de tickets e cancelamentos, o motivo de cada chamado e o tempo de tela real, e
+  montar janelas de observação anteriores ao churn.
+- Validação temporal: treinar com meses passados e testar nos meses seguintes.
+- Calibrar as probabilidades e escolher o limiar com custos reais e a capacidade da equipe.
+- Testar a segmentação só com variáveis de comportamento (ou K-Prototypes, para dados mistos)
+  e avaliar a estabilidade dos grupos.
+- Piloto controlado (teste A/B) para medir o efeito real das ofertas; modelos de uplift.
+- Monitorar o desempenho, as mudanças nos dados e as diferenças de erro entre grupos de clientes.
+
+Concluído. Painel: C:\Users\Benevaldo\Documents\Trabalhos do Curso Ciencia de Dados\Introduction-to-Machine-Learning\GlobalStream_Trabalho\resultados\painel_resultados.html
